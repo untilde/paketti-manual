@@ -1,5 +1,5 @@
-# paketti-unofficial-manual
-This is an unofficial manual for the Paketti Renoise tool, based on Release [20240609121053](https://github.com/esaruoho/org.lackluster.Paketti.xrnx/releases/tag/20240609121053)
+# About
+This is an unofficial manual for the Paketti Renoise tool, based on Release [20240609121053](https://github.com/esaruoho/org.lackluster.Paketti.xrnx/releases/tag/20240609121053).
 
 Paketti is a Renoise tool packing hundreds of new additions, ranging from quality of life adjustments to entire new functionalities. Working like an expansion pack, it addresses multiple community requests that were not yet considered by the Renoise developers.
 
@@ -23,5 +23,18 @@ It is far too complex to sum up in just a few words. However, some of the change
 * Control selected sample loop start/end with MIDI;
 * Any much much more!
 
-An extensive list of additions is available at the official Paketti GitHub page.
+An extensive list of additions is available at the official [Paketti GitHub page](https://github.com/esaruoho/org.lackluster.Paketti.xrnx/).
 
+# Index
+For better comprehension, this manual is divided into sections. Each chapter corresponds to a different Renoise screen/tab and can be accessed from the list below:
+
+1) Global
+2) Instrument Box
+3) Sampler
+4) Pattern Editor
+5) Pattern Matrix
+6) Mixer
+7) Phrase Editor
+
+# Credits
+Paketti is a project by Esa Ruoho, a.k.a Lackluster. More information [here](https://github.com/esaruoho/org.lackluster.Paketti.xrnx/blob/master/README.md#thanks).
