@@ -1,5 +1,5 @@
 # paketti-unofficial-manual
-This is an unofficial manual for the Paketti Renoise tool, based on Release (20240609121053)[https://github.com/esaruoho/org.lackluster.Paketti.xrnx/releases/tag/20240609121053].
+This is an unofficial manual for the Paketti Renoise tool, based on Release [20240609121053](https://github.com/esaruoho/org.lackluster.Paketti.xrnx/releases/tag/20240609121053)
 
 Paketti is a Renoise tool packing hundreds of new additions, ranging from quality of life adjustments to entire new functionalities. Working like an expansion pack, it addresses multiple community requests that were not yet considered by the Renoise developers.
 
