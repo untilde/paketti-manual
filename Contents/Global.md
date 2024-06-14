@@ -26,7 +26,7 @@
 | Item | Description | Notes |
 | --- | --- | --- |
 | `Upper Frame` | Enables/Disables upper frame control when using Impulse Tracker key commands | See [insert IT topic - TBA] |
-| `0G01 Loader` | Enables the 0G01 hack for samples inserted using the Paketti loaders | See [1.2](https://github.com/untilde/paketti-unofficial-manual/blob/main/Contents/Global.md#12-instruments) |
+| `0G01 Loader` | Enables the 0G01 hack for samples inserted using the Paketti loaders | See [1.2](https://github.com/untilde/paketti-unofficial-manual/blob/main/Contents/Global.md#12-instruments) to better understand the 0G01 command |
 | `Random BPM` | Self-explanatory | - |
 | `Pale Green Theme` | Loads Paketti color theme for Renoise | - |
 | `Gifts: Plaid Zap Load` | Insert a special XRNI instrument made from Plaid samples | See [forum post](https://forum.renoise.com/t/plaidzap-xrni-gift/32521) |
@@ -34,7 +34,7 @@
 | `Paketti Loader Settings` | Self-Explanatory. | See [1.2](https://github.com/untilde/paketti-unofficial-manual/blob/main/Contents/Global.md#12-instruments) |
 | `Wipe & Slices Settings` | | |
 | `Render Settings` | Determines sample rate and bit depth for Paketti resampling procedures. | - |
-| `Edit Mode Colouring` | Highlights the track you're currently editing - or all tracks. | - |
+| `Edit Mode Colouring` | Highlights the track you're currently editing, all tracks or none. | - |
 
 # 1.2 Instruments
 
