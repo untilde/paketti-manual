@@ -28,7 +28,7 @@ An extensive list of additions is available at the official [Paketti GitHub page
 # Index
 For better comprehension, this manual is divided into sections. Each chapter corresponds to a different Renoise screen/tab and can be accessed from the list below:
 
-1) Global
+1) [Global](Documentation/1 - Global.md)
 2) Instrument Box
 3) Sampler
 4) Pattern Editor
