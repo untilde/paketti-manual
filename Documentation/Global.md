@@ -1,4 +1,4 @@
-# 1. Tools menu
+# 1 - Tools menu
 
 ![image](https://github.com/untilde/paketti-unofficial-manual/assets/20494933/6179be68-f1c3-4b03-8544-1749bea4fde0)
 
@@ -19,7 +19,7 @@
 | `Track Routings GUI` | Pop up window with all track routings | - |
 
 
-# 1.1 Preferences
+# 1.1 - Preferences
 
 ![image](https://github.com/untilde/paketti-unofficial-manual/assets/20494933/d7a9cd74-6921-44c2-960a-a87f4fda788c)
 
@@ -36,22 +36,22 @@
 | `Render Settings` | Determines sample rate and bit depth for Paketti resampling procedures. | - |
 | `Edit Mode Colouring` | Highlights the track you're currently editing, all tracks or none. | - |
 
-# 1.2 Instruments
+# 1.2 - Instruments
 
 | Item | Description | Subtopic |
 | --- | --- | --- |
 
-# 1.3 Launch App
+# 1.3 - Launch App
 
 | Item | Description | Subtopic |
 | --- | --- | --- |
 
-# 1.4 Pattern Editor
+# 1.4 - Pattern Editor
 
 | Item | Description | Subtopic |
 | --- | --- | --- |
 
-# 1.5 Plugins/Devices
+# 1.5 - Plugins/Devices
 
 | Item | Description | Subtopic |
 | --- | --- | --- |
