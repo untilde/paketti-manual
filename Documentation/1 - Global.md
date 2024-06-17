@@ -1,4 +1,4 @@
-# 1.0 - Global 'Tools' Menu
+# 1.0 - 'Tools' Menu
 
 Settings for Paketti can be found under Tools -> Paketti. This menu also includes some shortcuts for useful features:
 
@@ -48,10 +48,6 @@ Settings for Paketti can be found under Tools -> Paketti. This menu also include
 | `Start Sampling (Record)` | Pops up the Renoise Sampler Recorder and starts playback. Useful for resampling DAW sound. | |
 | `Beat Sync Lines Halve\Double` | Adjusts the beatsync time for all slices in the selected instrument. Does not affect the first/main sample. | |
 | `Xst PitchBend Instrument Init` | Inserts an empty instrument containing several useful macros: PitchBend, Cutoff, Resonance, Cutoff LFO, Filter Drive, etc. | |
-
-### 1.2.1 - 0G01 Loader
-
-(under construction)
 
 ## 1.3 - Pattern Editor
 
