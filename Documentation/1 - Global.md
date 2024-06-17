@@ -1,4 +1,6 @@
-# 1 - Tools menu
+# 1 - Tools Menu Settings
+
+Settings for Paketti can be found under Tools -> Paketti. This menu also includes some shortcuts for useful features:
 
 ![image](https://github.com/untilde/paketti-unofficial-manual/assets/20494933/6179be68-f1c3-4b03-8544-1749bea4fde0)
 
@@ -6,18 +8,17 @@
 | --- | --- | --- |
 | `Preferences` | Shows Paketti Preferences window. | 1.1 |
 | `Instruments` | Contains sample and drumkit loaders, plus shortcuts for beatsync and pitchbend. | 1.2 |
-| `Launch App` | Open the pop-up window for App Selection. | 1.3 |
-| `Pattern Editor` | Random BPM, FX Cheat Sheet, Collapse/Uncollapse All, Double/Halve Pattern | 1.4 |
-| `Plugin/Devices` | Multiple Plugin/Device functionalities. | 1.5 |
-| `Clone Current Sequence` | Self-explanatory. | - |
+| `Pattern Editor` | Random BPM, FX Cheat Sheet, Collapse/Uncollapse All, Double/Halve Pattern | 1.3 |
+| `Plugin/Devices` | Multiple Plugin/Device functionalities. | 1.4 |
 | `Donate` | Self-explanatory. [Buy the dude a hot dog](https://lackluster.gumroad.com/l/paketti). | - |
+| `Show New Song Dialog` | Allows you to start a new song with the option to keep the same Patterns/Instruments/etc | - |
+| `Open Paketti Path` | Self-explanatory | - |
 | `∿ Squigly Sinewave to Clipboard` | Copy this symbol to easily find Paketti in the Keys window (under Renoise Preferences). | - |
+| `Paketti MIDI Populator` | Automatically fills current Project with Tracks, Instruments, Sends and Macros for External MIDI Controllers. | 1.5 |
 | `Clean Render Selected Track or Group` | Automatically bypasses FX in Track/Group before resampling. | - |
-| `MIDI Populator` | Automatically fills current Project with Tracks, Instruments, Sends and Macros for External MIDI Controllers. | 1.6 |
 | `Catch Octave` | Self-explanatory. | - |
-| `Available Routings for Track` | Displays a pop-up window containing routing configuration for the selected track. | - |
-| `Track Routings GUI` | Displays a pop-up window with all track routings. | - |
-
+| `Clone Current Sequence` | Self-explanatory. | - |
+| `Track Routings Dialog` | Displays a pop-up window containing all track audio device routings. | - |
 
 # 1.1 - Preferences
 
@@ -31,27 +32,32 @@
 | `Pale Green Theme` | Loads Paketti color theme for Renoise. | - |
 | `Gifts: Plaid Zap Load` | Insert a special XRNI instrument made from Plaid samples. | See [forum post](https://forum.renoise.com/t/plaidzap-xrni-gift/32521) |
 | `Create New Instrument & Loop from Selection` | Quite Self-Explanatory. Works on the Sample Editor (right-click). | - |
-| `Paketti Loader Settings` | Self-Explanatory. | See [1.2](https://github.com/untilde/paketti-unofficial-manual/blob/main/Contents/Global.md#12-instruments) |
-| `Wipe & Slices Settings` | | |
+| `Paketti Loader Settings` | Changes default settings for Paketti Drumkit/Multisample loaders. | See [1.2](https://github.com/untilde/paketti-unofficial-manual/blob/main/Contents/Global.md#12-instruments) for more details. |
+| `Wipe & Slices Settings` | Determines default settings for slices generated via Paketti (under the Sampler window): Slice Loop Mode, Beatsync, Autoseek, etc. | See [3 - Sampler](https://github.com/untilde/paketti-unofficial-manual/blob/main/Documentation/3%20-%20Sampler.md)|
 | `Render Settings` | Determines sample rate and bit depth for Paketti resampling procedures. | - |
 | `Edit Mode Colouring` | Highlights the track you're currently editing, all tracks or none. | - |
 
 # 1.2 - Instruments
 
-| Item | Description | Subtopic |
+| Item | Description | Notes |
+| --- | --- | --- |
+| `PitchBend Drumkit Sample Loader` | Automatically generates a drumkit from selected samples. Includes some macros. Samples are adjusted according the your Paketti Loader Settings (see 1.1). | |
+| `PitchBend Multiple Sample Loader` | Automatically generates one instrument for each selected sample. Sample are also adjusted according to Loader Settings. | |
+| `Start Sampling (Record)` | Pops up the Renoise Sampler Recorder and starts playback. Useful for resampling DAW sound. | |
+| `Beat Sync Lines Halve\Double` | Adjusts the beatsync time for all slices in the selected instrument. Does not affect the first/main sample. | |
+| `Xst PitchBend Instrument Init` | Inserts an empty instrument containing several useful macros: PitchBend, Cutoff, Resonance, Cutoff LFO, Filter Drive, etc. | |
+
+# 1.3 - Pattern Editor
+
+| Item | Description | Notes |
 | --- | --- | --- |
 
-# 1.3 - Launch App
+# 1.4 - Plugins/Devices
 
-| Item | Description | Subtopic |
+| Item | Description | Notes |
 | --- | --- | --- |
 
-# 1.4 - Pattern Editor
+# 1.5 - MIDI Populator
 
-| Item | Description | Subtopic |
-| --- | --- | --- |
-
-# 1.5 - Plugins/Devices
-
-| Item | Description | Subtopic |
+| Item | Description | Notes |
 | --- | --- | --- |
