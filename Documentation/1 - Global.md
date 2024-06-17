@@ -20,7 +20,7 @@ Settings for Paketti can be found under Tools -> Paketti. This menu also include
 | `Clone Current Sequence` | Self-explanatory. | - |
 | `Track Routings Dialog` | Displays a pop-up window containing all track audio device routings. | - |
 
-# 1.1 - Preferences
+## 1.1 - Preferences
 
 ![image](https://github.com/untilde/paketti-unofficial-manual/assets/20494933/d7a9cd74-6921-44c2-960a-a87f4fda788c)
 
@@ -37,7 +37,7 @@ Settings for Paketti can be found under Tools -> Paketti. This menu also include
 | `Render Settings` | Determines sample rate and bit depth for Paketti resampling procedures. | - |
 | `Edit Mode Colouring` | Highlights the track you're currently editing, all tracks or none. | - |
 
-# 1.2 - Instruments
+## 1.2 - Instruments
 
 ![image](https://github.com/untilde/paketti-unofficial-manual/assets/20494933/f3fa1092-6f7a-43ad-a6a8-7880e55278ba)
 
@@ -49,7 +49,7 @@ Settings for Paketti can be found under Tools -> Paketti. This menu also include
 | `Beat Sync Lines Halve\Double` | Adjusts the beatsync time for all slices in the selected instrument. Does not affect the first/main sample. | |
 | `Xst PitchBend Instrument Init` | Inserts an empty instrument containing several useful macros: PitchBend, Cutoff, Resonance, Cutoff LFO, Filter Drive, etc. | |
 
-# 1.3 - Pattern Editor
+## 1.3 - Pattern Editor
 
 ![image](https://github.com/untilde/paketti-unofficial-manual/assets/20494933/8cef7d1f-e513-48e9-ac41-9fdd1dced4f5)
 
@@ -62,18 +62,18 @@ Settings for Paketti can be found under Tools -> Paketti. This menu also include
 | `Pattern Doubler` | Doubles the current pattern size while also repeating its contents accordingly (notes, commands, etc). | |
 | `Pattern Halver` | Sets the pattern to 1/2 current size. | |
 
-## 1.3.1 - Effect Column CheatSheet Dialog
+### 1.3.1 - Effect Column CheatSheet Dialog
 
 ![image](https://github.com/untilde/paketti-unofficial-manual/assets/20494933/94a6d838-e820-4b7c-9b59-bcb8763579cb)
 
 Please note: the FX Column CheatSheet also features sliders for the Volume, Pan, Delay and EFX columns. Moving a slider places the correspondent value in the highlighted track/line in the sequencer. It is very effective for manually programming intricate modulations: pick an effect, move the slider, move to next line, and so on. It's also the perfect companion for Renoise newcomers who still haven't learned the most important commands.
 
-# 1.4 - Plugins/Devices
+## 1.4 - Plugins/Devices
 
 | Item | Description | Notes |
 | --- | --- | --- |
 
-# 1.5 - MIDI Populator
+## 1.5 - MIDI Populator
 
 | Item | Description | Notes |
 | --- | --- | --- |
