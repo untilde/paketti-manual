@@ -66,7 +66,7 @@ Settings for Paketti can be found under Tools -> Paketti. This menu also include
 
 Please note: the FX Column CheatSheet also features sliders for the Volume, Pan, Delay and EFX columns. Moving a slider places the correspondent value in the highlighted track/line in the sequencer. It is very effective for manually programming intricate modulations: pick an effect, move the slider, move to next line, and so on. It's also the perfect companion for Renoise newcomers who still haven't learned the most important commands.
 
-![image](https://github.com/untilde/paketti-unofficial-manual/assets/20494933/eb62f303-3d91-4e71-9651-0c22d3adda7f)
+![image](https://github.com/untilde/paketti-unofficial-manual/assets/20494933/4d808eed-b606-4611-98c9-b7d0bcadf0d4)
 
 ## 1.4 - Plugins/Devices
 
