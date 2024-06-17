@@ -62,7 +62,7 @@ Settings for Paketti can be found under Tools -> Paketti. This menu also include
 | `Pattern Doubler` | Doubles the current pattern size while also repeating its contents accordingly (notes, commands, etc). | |
 | `Pattern Halver` | Sets the pattern to 1/2 current size. | |
 
-# 1.3.1 - Effect Column CheatSheet Dialog
+## 1.3.1 - Effect Column CheatSheet Dialog
 
 ![image](https://github.com/untilde/paketti-unofficial-manual/assets/20494933/94a6d838-e820-4b7c-9b59-bcb8763579cb)
 
