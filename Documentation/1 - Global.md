@@ -1,4 +1,4 @@
-# 1.0 - Settings
+# 1.0 - Global 'Tools' Menu
 
 Settings for Paketti can be found under Tools -> Paketti. This menu also includes some shortcuts for useful features:
 
@@ -16,7 +16,7 @@ Settings for Paketti can be found under Tools -> Paketti. This menu also include
 | `∿ Squigly Sinewave to Clipboard` | Copy this symbol to easily find Paketti in the Keys window (under Renoise Preferences). | - |
 | `Paketti MIDI Populator` | Automatically fills current Project with Tracks, Instruments, Sends and Macros for External MIDI Controllers. | 1.5 |
 | `Clean Render Selected Track or Group` | Automatically bypasses FX in Track/Group before resampling. | - |
-| `Catch Octave` | Self-explanatory. | - |
+| `Catch Octave` | (NEEDS EDITING) | - |
 | `Clone Current Sequence` | Self-explanatory. | - |
 | `Track Routings Dialog` | Displays a pop-up window containing all track audio device routings. | - |
 
@@ -28,7 +28,7 @@ Settings for Paketti can be found under Tools -> Paketti. This menu also include
 | --- | --- | --- |
 | `Upper Frame` | Enables/Disables upper frame control when using Impulse Tracker key commands. | See [insert IT topic - TBA] |
 | `0G01 Loader` | Automatically enables the 0G01 hack for samples inserted using the Paketti loaders. | See the [Instrument Box chapter](https://github.com/untilde/paketti-unofficial-manual/blob/main/Documentation/2%20-%20Instrument%20Box.md) to better understand the 0G01 hack. |
-| `Random BPM` | Self-explanatory. | - |
+| `Random BPM` | (NEEDS EDITING) | - |
 | `Pale Green Theme` | Loads Paketti color theme for Renoise. | - |
 | `Gifts: Plaid Zap Load` | Insert a special XRNI instrument made from Plaid samples. | See [forum post](https://forum.renoise.com/t/plaidzap-xrni-gift/32521) |
 | `Create New Instrument & Loop from Selection` | Quite Self-Explanatory. Works on the Sample Editor (right-click). | - |
