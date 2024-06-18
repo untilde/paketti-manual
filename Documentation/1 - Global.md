@@ -60,7 +60,7 @@ Settings for Paketti can be found under Tools -> Paketti. This menu also include
 | `Effect Column CheatSheet Dialog` | A pop-up window containg all pattern commands available in Renoise. | See [1.3.1](https://github.com/untilde/paketti-unofficial-manual/blob/main/Documentation/1%20-%20Global.md#131---effect-column-cheatsheet-dialog) |
 | `Collapse/Uncollapse All Tracks` | Self-explanatory. | |
 | `Pattern Doubler` | Doubles the current pattern size while also duplicating its contents accordingly (notes, commands, etc). | |
-| `Pattern Halver` | Sets the pattern to 1/2 current size. | |
+| `Pattern Halver` | Sets the pattern to 1/2 current size. Works *differently* from the native keybind `CTRL+F8`, as it *does not adapt pattern content* to fit the new length. Simply put: pattern length is changed to half, but notes/commands remain in place. | |
 
 ### 1.3.1 - Effect Column CheatSheet Dialog
 
