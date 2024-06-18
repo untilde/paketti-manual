@@ -74,25 +74,23 @@ Please note: the FX Column CheatSheet also features sliders for the Volume, Pan,
 
 | Item | Description | Notes |
 | --- | --- | --- |
-| `Debug` | Different plugin related utilities for debugging. Can be ignored by the average user. | See 1.4.1 |
-| `Switch Plugin AutoSuspend OFF` | | |
-| `Expose/Hide Selected Device Parameters in Mixer` | | |
-| `Expose/Hide Selected Track ALL Device Parameters` | | |
+| `Debug` | Different plugin related utilities for debugging. Can be ignored by the average user. | |
+| `Switch Plugin AutoSuspend OFF` | Quickly Enables/Disables the AutoSuspend function in Renoise. From the [user manual](https://tutorials.renoise.com/wiki/Plugin): "Auto Suspend: When enabled, Renoise will completely shut off the plugin when it is no longer producing sound. This is mainly done to reduce CPU usage." | |
+| `Expose/Hide Selected Device Parameters in Mixer` | Display plugin parameters in the mixer as sliders. It's the default behavior for some native devices, such as the Compressor and Mixer EQ. | See 1.4.1 |
+| `Expose/Hide Selected Track ALL Device Parameters` | Same as above, but applies to all devices in the selected track. | See 1.4.1 |
 | `Hide Track DSP Devices for All Tracks` | | | 
-| `Bypass/Enable All Devices on Track` | | |
-| `Load AU/VST/VST3 Plugins Dialog` | | | 
-| `Load Native Devices Dialog` | | |
-| `Load VST Devices Dialog` | | |
-| `Load VST3/AU Devices Dialog` | | |
-| `Open Visible Pages to Fit Plugin Parameter Count` | | |
+| `Bypass/Enable All Devices on Track` | Self-explanatory. Useful to check pre/post processing. In other words, how the FX chain is affecting signals in a particular track. | |
+| `Load AU/VST/VST3 Plugins Dialog` | A pop-up window to quickly load instrument plugins or add them as keyboard shortcuts. These plugin shortcuts can be found under the Keys tab in Renoise Preferences. | See 1.4.2 | 
+| `Open Visible Pages to Fit Plugin Parameter Count` | Fully expands a plugin window so all the parameter sliders are visible. | |
 
-### 1.4.1 - Debug options
+### 1.4.1 - Expose/Hide Selected Device Parameters in Mixer
 
-![image](https://github.com/untilde/paketti-unofficial-manual/assets/20494933/dcf28bf1-29fe-4ce7-aa95-13f171ced27b)
+![image](https://github.com/untilde/paketti-unofficial-manual/assets/20494933/9f779834-0454-41c3-a39f-b6f81d425e61)
 
+### 1.4.2 - Load AU/VST/VST3 Plugins Dialog
 
-| Item | Description | Notes |
-| --- | --- | --- |
+![image](https://github.com/untilde/paketti-unofficial-manual/assets/20494933/37facf15-9d5b-46c1-b6dd-d679520b4919)
+
 
 ## 1.5 - MIDI Populator
 
