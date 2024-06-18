@@ -1,27 +1,28 @@
 # About
 This is an unofficial manual for the Paketti Renoise tool, based on Release [20240609121053](https://github.com/esaruoho/org.lackluster.Paketti.xrnx/releases/tag/20240609121053).
 
-Paketti is a Renoise tool packing hundreds of new additions, ranging from quality of life adjustments to entire new functionalities. Working like an expansion pack, it addresses multiple community requests that were not yet considered by the Renoise developers.
+Paketti is a Renoise tool packing hundreds of new functionalities, ranging from quality of life improvements to entire sets of features. Working like an expansion pack, it addresses multiple community requests that were not yet considered by the Renoise developers. It also has keyboard workflows in mind, with countless keybinds to configure.
 
 It is far too complex to sum up in just a few words. However, some of the changes include:
 
 * Quickly add Sampler modulations with a dropdown menu: Envelope, LFO, Stepper, etc;
-* Auto add pitch bend macros for instruments/drum kits;
+* Automatically build drum kits with macros for pitch bend, cutoff, LFO, etc.
+* Automatically load multiple samples into sequential instrument slots;
 * Change default computer keyboard Velocity;
 * Quick live resample (auto starts real time playback and resamples incoming audio);
-* Switch autosuspend for all plugins;
+* Quick switch autosuspend for plugins;
 * Bypass all devices in tracks;
-* Floating window to add native devices;
-* Floating interactable FX column cheat sheet;
+* Floating window to insert plugins or add them as keybinds;
+* Floating interactable FX column cheat sheet, including sliders to quickly write modulation;
 * Pattern doubler/halver;
 * Color/highlight the selected track in pattern editor;
-* Dozens of shortcuts for pattern AND phrase editing, resizing and duplication;
+* Dozens of shortcuts for pattern AND phrase editing;
 * Impulse Tracker (.it) key commands;
 * Quickly add Gainer automation curves (fade ins/fade outs);
 * AU/VST/VST3/Native Plugins/Effects Lister;
-* Show device/plugin parameters as sliders in the Mixer;
+* Show all device/plugin parameters as sliders in the Mixer;
 * Control selected sample loop start/end with MIDI;
-* Any much much more!
+* And much much more!
 
 An extensive list of additions is available at the official [Paketti GitHub page](https://github.com/esaruoho/org.lackluster.Paketti.xrnx/).
 
