@@ -6,15 +6,15 @@ Settings for Paketti can be found under Tools -> Paketti. This menu also include
 
 | Item | Description | Subtopic |
 | --- | --- | --- |
-| `Preferences` | Shows Paketti Preferences window. | 1.1 |
-| `Instruments` | Contains sample and drumkit loaders, plus shortcuts for beatsync and pitchbend. | 1.2 |
-| `Pattern Editor` | Random BPM, FX Cheat Sheet, Collapse/Uncollapse All, Double/Halve Pattern | 1.3 |
-| `Plugin/Devices` | Multiple Plugin/Device functionalities. | 1.4 |
+| `Preferences` | Shows Paketti Preferences window. | [1.1](https://github.com/untilde/paketti-unofficial-manual/blob/main/Documentation/1%20-%20Global.md#11---preferences) |
+| `Instruments` | Contains sample and drumkit loaders, plus shortcuts for beatsync and pitchbend. | [1.2](https://github.com/untilde/paketti-unofficial-manual/blob/main/Documentation/1%20-%20Global.md#12---instruments) |
+| `Pattern Editor` | Random BPM, FX Cheat Sheet, Collapse/Uncollapse All, Double/Halve Pattern | [1.3](https://github.com/untilde/paketti-unofficial-manual/blob/main/Documentation/1%20-%20Global.md#13---pattern-editor) |
+| `Plugin/Devices` | Multiple Plugin/Device functionalities. | [1.4](https://github.com/untilde/paketti-unofficial-manual/blob/main/Documentation/1%20-%20Global.md#14---pluginsdevices) |
 | `Donate` | Self-explanatory. [Buy the dude a hot dog](https://lackluster.gumroad.com/l/paketti). | - |
 | `Show New Song Dialog` | Allows you to start a new song with the option to keep the same Patterns/Instruments/etc | - |
 | `Open Paketti Path` | Self-explanatory | - |
 | `∿ Squigly Sinewave to Clipboard` | Copy this symbol to easily find Paketti in the Keys window (under Renoise Preferences). | - |
-| `Paketti MIDI Populator` | Automatically fills current Project with Tracks, Instruments, Sends and Macros for External MIDI Controllers. | 1.5 |
+| `Paketti MIDI Populator` | Automatically fills current Project with Tracks, Instruments, Sends and Macros for External MIDI Controllers. | [1.5](https://github.com/untilde/paketti-unofficial-manual/blob/main/Documentation/1%20-%20Global.md#15---midi-populator) |
 | `Clean Render Selected Track or Group` | Automatically bypasses FX in Track/Group before resampling. | - |
 | `Catch Octave` | (NEEDS EDITING) | - |
 | `Clone Current Sequence` | Self-explanatory. | - |
@@ -26,8 +26,8 @@ Settings for Paketti can be found under Tools -> Paketti. This menu also include
 
 | Item | Description | Notes |
 | --- | --- | --- |
-| `Upper Frame` | Enables/Disables upper frame control when using Impulse Tracker key commands. | See [insert IT topic - TBA] |
-| `0G01 Loader` | Automatically enables the 0G01 hack for samples inserted using the Paketti loaders. | See the [Instrument Box chapter](https://github.com/untilde/paketti-unofficial-manual/blob/main/Documentation/2%20-%20Instrument%20Box.md) to better understand the 0G01 hack. |
+| `Upper Frame` | Enables/Disables upper frame control when using Impulse Tracker key commands. | See [insert IT topic - to be written] |
+| `0G01 Loader` | Automatically enables the 0G01 hack for samples inserted using the Paketti loaders. | See [2 - Instrument Box](https://github.com/untilde/paketti-unofficial-manual/blob/main/Documentation/2%20-%20Instrument%20Box.md) to better understand the 0G01 hack. |
 | `Random BPM` | (NEEDS EDITING) | - |
 | `Pale Green Theme` | Loads Paketti color theme for Renoise. | - |
 | `Gifts: Plaid Zap Load` | Insert a special XRNI instrument made from Plaid samples. | See [forum post](https://forum.renoise.com/t/plaidzap-xrni-gift/32521) |
@@ -57,7 +57,7 @@ Settings for Paketti can be found under Tools -> Paketti. This menu also include
 | --- | --- | --- |
 | `Random BPM` | Picks a random BPM value for the project. | |
 | `Write Current BPM&LPB to Master column` | Self-explanatory. Useful to keep the project on rails when dealing with BPM and LPB changes. | |
-| `Effect Column CheatSheet Dialog` | A pop-up window containg all pattern commands available in Renoise. | More details in [1.3.1](https://github.com/untilde/paketti-unofficial-manual/blob/main/Documentation/1%20-%20Global.md#131---effect-column-cheatsheet-dialog) |
+| `Effect Column CheatSheet Dialog` | A pop-up window containg all pattern commands available in Renoise. | See [1.3.1](https://github.com/untilde/paketti-unofficial-manual/blob/main/Documentation/1%20-%20Global.md#131---effect-column-cheatsheet-dialog) |
 | `Collapse/Uncollapse All Tracks` | Self-explanatory. | |
 | `Pattern Doubler` | Doubles the current pattern size while also duplicating its contents accordingly (notes, commands, etc). | |
 | `Pattern Halver` | Sets the pattern to 1/2 current size. | |
@@ -76,11 +76,11 @@ Please note: the FX Column CheatSheet also features sliders for the Volume, Pan,
 | --- | --- | --- |
 | `Debug` | Different plugin related utilities for debugging. Can be ignored by the average user. | |
 | `Switch Plugin AutoSuspend OFF` | Quickly Enables/Disables the AutoSuspend function in Renoise. From the [user manual](https://tutorials.renoise.com/wiki/Plugin): "Auto Suspend: When enabled, Renoise will completely shut off the plugin when it is no longer producing sound. This is mainly done to reduce CPU usage." | |
-| `Expose/Hide Selected Device Parameters in Mixer` | Display plugin parameters in the mixer as sliders. It's the default behavior for some native devices, such as the Compressor and Mixer EQ. | See 1.4.1 |
+| `Expose/Hide Selected Device Parameters in Mixer` | Display plugin parameters in the mixer as sliders. It's the default behavior for some native devices, such as the Compressor and Mixer EQ. | See [1.4.1](https://github.com/untilde/paketti-unofficial-manual/blob/main/Documentation/1%20-%20Global.md#141---exposehide-selected-device-parameters-in-mixer) |
 | `Expose/Hide Selected Track ALL Device Parameters` | Same as above, but applies to all devices in the selected track. | See 1.4.1 |
 | `Hide Track DSP Devices for All Tracks` | | | 
 | `Bypass/Enable All Devices on Track` | Self-explanatory. Useful to check pre/post processing. In other words, how the FX chain is affecting signals in a particular track. | |
-| `Load AU/VST/VST3 Plugins Dialog` | A pop-up window to quickly load instrument plugins or add them as keyboard shortcuts. These plugin shortcuts can be found under the Keys tab in Renoise Preferences. | See 1.4.2 | 
+| `Load AU/VST/VST3 Plugins Dialog` | A pop-up window to quickly load instrument plugins or add them as keyboard shortcuts. These plugin shortcuts can be found under the Keys tab in Renoise Preferences. | [See 1.4.2](https://github.com/untilde/paketti-unofficial-manual/blob/main/Documentation/1%20-%20Global.md#142---load-auvstvst3-plugins-dialog) | 
 | `Open Visible Pages to Fit Plugin Parameter Count` | Fully expands a plugin window so all the parameter sliders are visible. | |
 
 ### 1.4.1 - Expose/Hide Selected Device Parameters in Mixer
@@ -90,7 +90,6 @@ Please note: the FX Column CheatSheet also features sliders for the Volume, Pan,
 ### 1.4.2 - Load AU/VST/VST3 Plugins Dialog
 
 ![image](https://github.com/untilde/paketti-unofficial-manual/assets/20494933/37facf15-9d5b-46c1-b6dd-d679520b4919)
-
 
 ## 1.5 - MIDI Populator
 
