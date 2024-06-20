@@ -29,7 +29,7 @@ An extensive list of additions is available at the official [Paketti GitHub page
 # Index
 For better comprehension, this manual is divided into sections. Each chapter corresponds to a different Renoise screen/tab and can be accessed from the list below:
 
-1) [Global](https://github.com/untilde/paketti-unofficial-manual/blob/main/Documentation/1%20-%20Global.md)
+1) [Global](https://github.com/untilde/paketti-unofficial-manual/blob/main/Documentation/1%20-%20Tools%20menu.md)
 2) [Instrument Box](https://github.com/untilde/paketti-unofficial-manual/blob/main/Documentation/2%20-%20Instrument%20Box.md)
 3) [Sampler](https://github.com/untilde/paketti-unofficial-manual/blob/main/Documentation/3%20-%20Sampler.md)
 4) [Pattern Editor](https://github.com/untilde/paketti-unofficial-manual/blob/main/Documentation/4%20-%20Pattern%20Editor.md)
