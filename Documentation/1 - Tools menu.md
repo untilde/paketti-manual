@@ -1,4 +1,4 @@
-# 1.0 - 'Tools' Menu
+# 1 - 'Tools' Menu
 
 Settings for Paketti can be found under Tools -> Paketti. This menu also includes some shortcuts for useful features:
 
@@ -70,7 +70,7 @@ Please note: the FX Column CheatSheet also features sliders for the Volume, Pan,
 
 ## 1.4 - Plugins/Devices
 
-![image](https://github.com/untilde/paketti-unofficial-manual/assets/20494933/6b23c4a5-a5f3-43a9-9440-aa1ed4c54f74)
+![image](https://github.com/untilde/paketti-unofficial-manual/assets/20494933/565e275e-c4dd-4c99-a1ee-529ce2a12181)
 
 | Item | Description | Notes |
 | --- | --- | --- |
@@ -81,7 +81,7 @@ Please note: the FX Column CheatSheet also features sliders for the Volume, Pan,
 | `Hide Track DSP Devices for All Tracks` | | | 
 | `Bypass/Enable All Devices on Track` | Self-explanatory. Useful to check pre/post processing. In other words, how the FX chain is affecting signals in a particular track. | |
 | `Load AU/VST/VST3 Plugins Dialog` | A pop-up window to quickly load instrument plugins or add them as keyboard shortcuts. These plugin shortcuts can be found under the Keys tab in Renoise Preferences. | See [1.4.2](https://github.com/untilde/paketti-unofficial-manual/blob/main/Documentation/1%20-%20Tools%20menu.md#142---load-auvstvst3-plugins-dialog). | 
-| `Open Visible Pages to Fit Plugin Parameter Count` | Fully expands a plugin window so all the parameter sliders are visible. | |
+| `Open Visible Pages to Fit Plugin Parameter Count` | Fully expands a plugin/device window so all the parameter sliders are visible. | |
 
 ### 1.4.1 - Expose/Hide Selected Device Parameters in Mixer
 
@@ -93,5 +93,6 @@ Please note: the FX Column CheatSheet also features sliders for the Volume, Pan,
 
 ## 1.5 - MIDI Populator
 
-| Item | Description | Notes |
-| --- | --- | --- |
+The Paketti MIDI Populator is a powerful tool to automate project configuration for external MIDI controllers and/or sequencers. It allows the user to pick MIDI inputs/outputs and quickly insert plugin instruments (up to 16), including an option to randomize the VSTi selection. A new track is generated for every selected instrument - and outputs set accordingly. These tracks can be configured for automatic Send devices and number of Volume/Pan/Delay/FX columns. 
+
+For users who do not have external hardware sequencers, a good use case for the MIDI Populator is to receive MIDI information from applications such as VCV Rack and Pure Data. However, a third party virtual MIDI server such as LoopBe1 may be necessary to connect these applications to Renoise.
