@@ -50,7 +50,7 @@ Settings for Paketti can be found under Tools -> Paketti. This menu also include
 
 ## 1.3 - Pattern Editor
 
-![image](https://github.com/untilde/paketti-unofficial-manual/assets/20494933/8cef7d1f-e513-48e9-ac41-9fdd1dced4f5)
+![image](https://github.com/untilde/paketti-unofficial-manual/assets/20494933/ed27b39e-28c0-40ae-b9be-d86d66adb9c8)
 
 | Item | Description | Notes |
 | --- | --- | --- |
@@ -60,6 +60,7 @@ Settings for Paketti can be found under Tools -> Paketti. This menu also include
 | `Collapse/Uncollapse All Tracks` | Self-explanatory. | |
 | `Pattern Doubler` | Doubles the current pattern size while also duplicating its contents accordingly (notes, commands, etc). | |
 | `Pattern Halver` | Sets the pattern to 1/2 current size. Works *differently* from the native keybind `CTRL+F8`, as it *does not adapt pattern content* to fit the new length. Simply put: pattern length is changed to half, but notes/commands remain in place. | |
+| `Global Visible Column (All)` | Expands all columns in all tracks: Volume, Pan, Delay and FX.| |
 
 ### 1.3.1 - Effect Column CheatSheet Dialog
 
