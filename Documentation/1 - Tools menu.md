@@ -32,7 +32,7 @@ Settings for Paketti can be found under Tools -> Paketti. This menu also include
 | `Gifts: Plaid Zap Load` | Insert a special XRNI instrument made from Plaid samples. | See [forum post](https://forum.renoise.com/t/plaidzap-xrni-gift/32521). |
 | `Create New Instrument & Loop from Selection` | Quite Self-Explanatory. Works on the Sample Editor (right-click). | - |
 | `Paketti Loader Settings` | Changes default settings for Paketti Drumkit/Multisample loaders. | See [1.2](https://github.com/untilde/paketti-unofficial-manual/blob/main/Documentation/1%20-%20Tools%20menu.md#12---instruments) for more details. |
-| `Wipe & Slices Settings` | Determines default settings for slices generated via Paketti (under the Sampler window): Slice Loop Mode, Beatsync, Autoseek, etc. | See [3 - Sampler](https://github.com/untilde/paketti-unofficial-manual/blob/main/Documentation/3%20-%20Sampler.md).|
+| `Wipe & Slices Settings` | Determines default settings for slices generated via Paketti (under the Sampler window and Instrument Box): Slice Loop Mode, Beatsync, Autoseek, etc. | See [2 - Instrument Box](https://github.com/untilde/paketti-unofficial-manual/blob/main/Documentation/2%20-%20Instrument%20Box.md).
 | `Render Settings` | Determines sample rate and bit depth for Paketti resampling procedures. | - |
 | `Edit Mode Colouring` | Highlights the track you're currently editing, all tracks or none. | - |
 
