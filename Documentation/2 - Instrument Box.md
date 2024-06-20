@@ -2,7 +2,7 @@
 
 By right-clicking the Instrument Box (by default, located on the right corner of the screen) another set of Paketti features is available:
 
-![image](https://github.com/untilde/paketti-unofficial-manual/assets/20494933/8f5d8e7d-8309-4497-b21d-45d71d7d2643)
+![image](https://github.com/untilde/paketti-unofficial-manual/assets/20494933/d99f524c-1924-455f-ab63-bdf59bde3d07)
 
 | Item | Description | Subtopic |
 | --- | --- | --- |
