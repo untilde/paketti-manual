@@ -95,6 +95,17 @@ Please note: the FX Column CheatSheet also features sliders for the Volume, Pan,
 
 The Paketti MIDI Populator is a powerful tool to automate project configuration for external MIDI controllers and/or sequencers. It allows the user to pick MIDI inputs/outputs and quickly insert plugin instruments (up to 16), including an option to randomize the VSTi selection. A new track is generated for every selected instrument - and outputs set accordingly. These tracks can be configured for automatic Send devices and number of Volume/Pan/Delay/FX columns. 
 
-For users who do not have external hardware sequencers, a good use case for the MIDI Populator is to receive MIDI information from applications such as VCV Rack and Pure Data. However, a third party virtual MIDI server such as LoopBe1 may be necessary to connect these applications to Renoise. This way, you can build sequences in VCV Rack, for instance, and have audio output from VST plugins inside Renoise. Speaking of audio... a virtual audio cable (VAC) can also be used to simultaneously stream audio from VCV Rack (and other applications) to Renoise.
+For users who do not have external hardware sequencers, a good use case for the MIDI Populator is to receive MIDI information from applications such as VCV Rack and Pure Data. However, a third party virtual MIDI server such as LoopBe1 may be necessary to connect these applications to Renoise. This way, you can build sequences in VCV Rack, for instance, and have audio output from VST plugins inside Renoise. Speaking of audio... a virtual audio cable (VAC) could also be used to simultaneously stream audio from VCV Rack (and other applications) to Renoise.
+
+### 1.5.1 - MIDI Populator Quickstart
+
+1. Select MIDI inputs and outputs.
+2. Manually pick a plugin for each MIDI channel or use the `Randomize VST3 Plugin Selection` to randomly pick instruments.
+3. Configure the remaining options, which range from number of note columns to automatic Send devices.
+
+![image](https://github.com/untilde/paketti-unofficial-manual/assets/20494933/2528cb59-367c-4be1-ac79-ffbd033b811e)
+
+Paketti will then generate a new track for each plugin, with automatic MIDI configuration and Send placement (if enabled):
 
 ![image](https://github.com/untilde/paketti-unofficial-manual/assets/20494933/6baa75cb-7927-4a3b-a1cd-c1a75cf028f8)
+
