@@ -107,5 +107,6 @@ For users who do not have external hardware sequencers, a good use case for the 
 
 Paketti will then generate a new track for each plugin, with automatic MIDI configuration and Send placement (if enabled):
 
-![image](https://github.com/untilde/paketti-unofficial-manual/assets/20494933/6baa75cb-7927-4a3b-a1cd-c1a75cf028f8)
+![image](https://github.com/untilde/paketti-unofficial-manual/assets/20494933/3787ccc2-041a-48bb-b2e6-ab4ca40125c3)
+
 
