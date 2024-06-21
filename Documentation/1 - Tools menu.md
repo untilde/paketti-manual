@@ -103,10 +103,9 @@ For users who do not have external hardware sequencers, a good use case for the 
 2. Manually pick a plugin for each MIDI channel or use the `Randomize VST3 Plugin Selection` to randomly pick instruments.
 3. Configure the remaining options, which range from number of note columns to automatic Send devices.
 
-![image](https://github.com/untilde/paketti-unofficial-manual/assets/20494933/2528cb59-367c-4be1-ac79-ffbd033b811e)
+![image](https://github.com/untilde/paketti-unofficial-manual/assets/20494933/b840bc3b-7f6a-4a83-8e45-89e08cba3b76)
 
-Paketti will then generate a new track for each plugin, with automatic MIDI configuration and Send placement (if enabled):
+Paketti will then generate a new track for each plugin, with automatic MIDI configuration and Send placement (if enabled). Plugins can now easily send and receive MIDI information to/from your external devices and other applications.
 
-![image](https://github.com/untilde/paketti-unofficial-manual/assets/20494933/3787ccc2-041a-48bb-b2e6-ab4ca40125c3)
 
 
