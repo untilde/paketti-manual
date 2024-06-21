@@ -105,7 +105,7 @@ For users who do not have external hardware sequencers, a good use case for the 
 
 ![image](https://github.com/untilde/paketti-unofficial-manual/assets/20494933/b840bc3b-7f6a-4a83-8e45-89e08cba3b76)
 
-Paketti will then generate a new track for each plugin, with automatic MIDI configuration and Send placement (if enabled). Plugins can now easily send and receive MIDI information to/from your external devices and other applications.
+Paketti will then generate a new track for each plugin, with automatic MIDI In/Out configuration and Send placement (if enabled).
 
 
 
