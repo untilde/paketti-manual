@@ -27,10 +27,7 @@ UNDER CONSTRUCTION
 
 ## 2.2 - Launch App
 
-![image](https://github.com/untilde/paketti-unofficial-manual/assets/20494933/4672c0a4-5516-4430-9cc1-0d624e11a311)
-![image](https://github.com/untilde/paketti-unofficial-manual/assets/20494933/2af54e02-35e7-4738-8d2e-3078145eb345)
 ![image](https://github.com/untilde/paketti-unofficial-manual/assets/20494933/5090fc14-a94a-43c9-9178-47ed4f08ae48)
-![image](https://github.com/untilde/paketti-unofficial-manual/assets/20494933/5d98f11e-0030-4c3e-a880-579b018e4ff1)
 ![image](https://github.com/untilde/paketti-unofficial-manual/assets/20494933/946f7bb0-5987-45c7-96b2-cc5f5809e322)
 
 
