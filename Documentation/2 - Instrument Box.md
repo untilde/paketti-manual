@@ -17,7 +17,7 @@ By right-clicking the Instrument Box (by default, located on the right corner of
 | `PitchBend Multiple Sample Loader` | Automatically generates one instrument for each selected sample. Sample are also adjusted according to Loader Settings. This option is also available in the Tools menu. | |
 | `Save Selected Sample .WAV/.FLAC` | Self-explanatory. | |
 | `Wipe Song Retain Sample` | Self-explanatory. | |
-| `Clean Render Selected Track or Group` | Works like the "Freeze and Flatten" option in some other DAWs. It renders the current track into a new instrument and automatically places a C-4 on the first line of the project. After that, the source track is muted and collapsed. It is useful to share your .xrns without fearing plugin dependencies, to free up CPU or maybe just to support your resampling needs. | |
+| `Clean Render Selected Track or Group` | Works like the "Freeze and Flatten" option in some other DAWs. It renders the current (source) track into a new instrument and automatically places a C-4 on the first line of a new track. After that, the source track is automatically muted and collapsed. Useful to share your .xrns without fearing plugin dependencies, to free up CPU or maybe just to support your resampling needs. | |
 | `Record to Current Track` | | |
 | `Start Sampling (Record)` | | |
 
