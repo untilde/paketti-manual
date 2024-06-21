@@ -7,7 +7,7 @@ By right-clicking the Instrument Box (by default, located on the right corner of
 | Item | Description | Subtopic |
 | --- | --- | --- |
 | `Initialize...` | Creates a new empty instrument which includes pre-configured macros for common modulations: PitchBend, Filter Cutoff, Amp Envelope, Drive, etc. If the 0G01 hack is enabled, a new track is created and the command placed in the first line of current pattern alongside the C-4 note. This will be further explained later in the current chapter, so bear with me. | 2.1 |
-| `Launch App...` | Sends the selected samples to desired applications. Can be used to bounce stems into another DAW or to export files into a sample manager. | 2.2 |
+| `Launch App...` | Sends the selected samples to desired applications. Can be used to bounce stems into another DAW or to export files into a sample manager, such as Sononym. | 2.2 |
 | `Smart Folders...` | | |
 | `Wipe & Slice...` | Clears all slice markers in the selected instrument. It can also replace the current slices with a new set of equally distributed slices (2/4/8/16/32/64/128). In vanilla Renoise the slices have to be manually removed in the Sampler window - so this option automates this process. | |
 | `Duplicate and Select New Instrument` | Self-explanatory. | |
@@ -28,6 +28,6 @@ UNDER CONSTRUCTION
 ## 2.2 - Launch App
 
 ![image](https://github.com/untilde/paketti-unofficial-manual/assets/20494933/5090fc14-a94a-43c9-9178-47ed4f08ae48)
-![image](https://github.com/untilde/paketti-unofficial-manual/assets/20494933/946f7bb0-5987-45c7-96b2-cc5f5809e322)
+
 
 
