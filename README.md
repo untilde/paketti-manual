@@ -1,26 +1,26 @@
 # About
 This is an unofficial manual for the Paketti Renoise tool, based on Release [20240609121053](https://github.com/esaruoho/org.lackluster.Paketti.xrnx/releases/tag/20240609121053).
 
-Paketti is a Renoise tool packing hundreds of new functionalities, ranging from quality of life improvements to entire sets of features. Working like an expansion pack, it addresses multiple community requests that were not yet considered by the Renoise developers. It also has keyboard workflows in mind, with countless keybinds to configure.
+Paketti is a multipurpose Renoise tool. Working like an expansion pack, it delivers hundreds of new functionalities to the DAW, ranging from quality of life improvements to new advanced features inspired by Schism Tracker, PlayerPro and others. It also addresses multiple community requests from the Renoise Forum that were not yet considered by the developers. 
 
-It is far too complex to sum up in just a few words. However, some of the changes include:
+It is far too complex to sum up in just a few words. However, some notable changes include:
 
-* Quickly add Sampler modulations with a dropdown menu: Envelope, LFO, Stepper, etc;
+* Hundreds of new keybinds covering multiple areas of Renoise;
 * Automatically build drum kits with macros for pitch bend, cutoff, LFO, etc.
 * Automatically load multiple samples into sequential instrument slots;
+* Device parameter randomizer;
 * Change default computer keyboard Velocity;
 * Quick live resample (auto starts real time playback and resamples incoming audio);
 * Quick switch autosuspend for plugins;
 * Bypass all devices in tracks;
 * Floating window to insert plugins or add them as keybinds;
-* Floating interactable FX column cheat sheet, including sliders to quickly write modulation;
+* Floating interactable FX column cheat sheet, including sliders to quickly write modulation in your sequences;
 * Pattern doubler/halver;
 * Color/highlight the selected track in pattern editor;
 * Dozens of shortcuts for pattern AND phrase editing;
 * Impulse Tracker (.it) key commands;
-* Quickly add Gainer automation curves (fade ins/fade outs);
-* AU/VST/VST3/Native Plugins/Effects Lister;
-* Show all device/plugin parameters as sliders in the Mixer;
+* Quickly add automation curves to patterns (fade ins/fade outs);
+* Show device/plugin parameters as sliders in the Mixer;
 * Control selected sample loop start/end with MIDI;
 * And much much more!
 
