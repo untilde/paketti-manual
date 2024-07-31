@@ -1,7 +1,7 @@
 # About
 This is an unofficial manual for the Paketti Renoise tool, based on Release [20240609121053](https://github.com/esaruoho/org.lackluster.Paketti.xrnx/releases/tag/20240609121053).
 
-Paketti is a multipurpose Renoise tool. Working like an expansion pack, it delivers hundreds of new functionalities to the DAW, ranging from quality of life improvements to new advanced features inspired by Schism Tracker, PlayerPro and others. It also addresses multiple community requests from the Renoise Forum that were not yet considered by the developers. 
+Paketti is a multipurpose Renoise tool. Working like an expansion pack, it delivers hundreds of new functionalities to the DAW, ranging from quality of life improvements to new advanced features inspired by Schism Tracker, ModPlugTracker, Player Pro and many others. It also addresses multiple community requests from the Renoise Forum that were not yet considered by the developers. 
 
 It is far too complex to sum up in just a few words. However, some notable changes include:
 
