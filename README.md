@@ -6,22 +6,24 @@ Paketti is a multipurpose Renoise tool. Working like an expansion pack, it deliv
 It is far too complex to sum up in just a few words. However, some notable changes include:
 
 * Hundreds of new keybinds covering multiple areas of Renoise;
-* Automatically build drum kits with macros for pitch bend, cutoff, LFO, etc.
+* Automatically build drum kits with macros for PitchBend, Glide Amount, Cutoff, Resonance, Overdrive, Parallel Compression, Cutoff LFO Frequency, Cutoff LFO Amount.
 * Automatically load multiple samples into sequential instrument slots;
 * Device parameter randomizer;
-* Change default computer keyboard Velocity;
+* Change default computer keyboard Velocity with midi mapping;
 * Quick live resample (auto starts real time playback and resamples incoming audio);
 * Quick switch autosuspend for plugins;
-* Bypass all devices in tracks;
-* Floating window to insert plugins or add them as keybinds;
+* Bypass all devices in selected track;
+* Floating window to insert plugins or devices and add them as keybinds;
 * Floating interactable FX column cheat sheet, including sliders to quickly write modulation in your sequences;
-* Pattern doubler/halver;
-* Color/highlight the selected track in pattern editor;
+* Pattern doubler/halver (duplicates the pattern, and the automation);
+* Color/highlight the selected track in pattern editor (with editmode);
 * Dozens of shortcuts for pattern AND phrase editing;
-* Impulse Tracker (.it) key commands;
-* Quickly add automation curves to patterns (fade ins/fade outs);
-* Show device/plugin parameters as sliders in the Mixer;
-* Control selected sample loop start/end with MIDI;
+* Impulse Tracker (.it) key commands (ALT-D, ALT-L, ALT-U, ALT-F, ALT-G, F2 F3 F4 F5 F6 F8);
+* Quickly add automation curves to pattern automation (fade ins/fade outs (linear or exponential), pitchbend/panning);
+* Show/hide device parameters as sliders in the Mixer;
+* Control selected sample loop start/endpoints with MIDI;
+* Control Automation start / endSelection via Midi
+* Control Sample Buffer start / endSelection
 * And much much more!
 
 An extensive list of additions is available at the official [Paketti GitHub page](https://github.com/esaruoho/org.lackluster.Paketti.xrnx/).
