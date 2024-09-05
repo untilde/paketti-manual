@@ -44,9 +44,9 @@ Settings for Paketti can be found under Tools -> Paketti. This menu also include
 | --- | --- | --- |
 | `PitchBend Drumkit Sample Loader` | Automatically generates a drumkit from selected samples. Includes some macros. Samples are adjusted according the your Paketti Loader Settings (see 1.1 above). | |
 | `PitchBend Multiple Sample Loader` | Automatically generates one instrument for each selected sample. Sample are also adjusted according to Loader Settings. | |
-| `Start Sampling (Record)` | Pops up the Renoise Sampler Recorder and starts playback. Useful for resampling DAW sound. | |
-| `Beat Sync Lines Halve\Double` | Adjusts the beatsync time for all slices in the selected instrument. Does not affect the first/main sample. | |
-| `Xst PitchBend Instrument Init` | Inserts an empty instrument containing several useful macros: PitchBend, Cutoff, Resonance, Cutoff LFO, Filter Drive, etc. | |
+| `Start Sampling (Record)` | Pops up the Renoise Sampler Recorder and starts playback. Objective for usage is to set "Pattern" mode, and record multi-pattern length content. | |
+| `Beat Sync Lines Halve/Double` | Adjusts the Beatsync time for all slices in the Selected Instrument. Does not affect the first/main sample. | |
+| `Xst PitchBend Instrument Init` | Inserts an empty instrument containing several useful macros: PitchBend, Cutoff, Resonance, Cutoff LFOAmp, Cutoff LFOFreq, Overdrive, Parallel Compression and PitchBend Glide Inertia. | |
 
 ## 1.3 - Pattern Editor
 
@@ -55,18 +55,17 @@ Settings for Paketti can be found under Tools -> Paketti. This menu also include
 | Item | Description | Notes |
 | --- | --- | --- |
 | `Random BPM` | Picks a random BPM value for the project. | |
-| `Write Current BPM&LPB to Master column` | Self-explanatory. Useful to keep the project on rails when dealing with BPM and LPB changes. | |
+| `Write Current BPM&LPB to Master column` | This writes both the current BPM and the LPB to the Master Track. Useful when you change LPB / BPM across the song patterns. | |
 | `Effect Column CheatSheet Dialog` | A pop-up window containg all pattern commands available in Renoise. | See [1.3.1](https://github.com/untilde/paketti-unofficial-manual/blob/main/Documentation/1%20-%20Tools%20menu.md#131---effect-column-cheatsheet-dialog). |
-| `Collapse/Uncollapse All Tracks` | Self-explanatory. | |
-| `Pattern Doubler` | Doubles the current pattern size while also duplicating its contents accordingly (notes, commands, etc). | |
+| `Collapse/Uncollapse All Tracks` | Collapses (minimizes) or Uncollapses (maximizes) all the Tracks, Groups, Master and Sends. | |
+| `Pattern Doubler` | Doubles the current pattern size while also duplicating its contents accordingly (notes, volume, panning, delay, samplefx columns and effect columns, and automation. | |
 | `Pattern Halver` | Sets the pattern to 1/2 current size. Works *differently* from the native keybind `CTRL+F8`, as it *does not adapt pattern content* to fit the new length. Simply put: pattern length is changed to half, but notes/commands remain in place. | |
-| `Global Visible Column (All)` | Expands all columns in all tracks: Volume, Pan, Delay and FX.| |
+| `Global Visible Column (All)` | Expands all columns in all tracks: Volume, Pan, Delay and SampleFX.| |
 
 ### 1.3.1 - Effect Column CheatSheet Dialog
 
-Please note: the FX Column CheatSheet also features sliders for the Volume, Pan, Delay and EFX columns. Moving a slider places the correspondent value in the highlighted track/line in the sequencer. It is very effective for manually programming intricate modulations: pick an effect, move the slider, move to next line, and so on. It's also the perfect companion for Renoise newcomers who still haven't learned the most important commands.
-
-![image](https://github.com/untilde/paketti-unofficial-manual/assets/20494933/4d808eed-b606-4611-98c9-b7d0bcadf0d4)
+Please note: the Effect Column CheatSheet also features sliders for the Volume, Pan, Delay, SampleFX and Effect Columns. Moving a slider places the correspondent value in the highlighted row or selection in pattern. It is very effective for manually programming intricate modulations: pick an effect, move the slider, move to next line, and so on. It's also the perfect companion for Renoise newcomers who still haven't learned the most important commands.
+<img width="587" alt="Screenshot 2024-09-05 at 21 07 59" src="https://github.com/user-attachments/assets/30f3622b-39ce-47b4-a3c9-3e77007577f2">
 
 ## 1.4 - Plugins/Devices
 
@@ -78,7 +77,7 @@ Please note: the FX Column CheatSheet also features sliders for the Volume, Pan,
 | `Switch Plugin AutoSuspend OFF` | Quickly Enables/Disables the AutoSuspend function in Renoise. From the [user manual](https://tutorials.renoise.com/wiki/Plugin): "Auto Suspend: When enabled, Renoise will completely shut off the plugin when it is no longer producing sound. This is mainly done to reduce CPU usage." | |
 | `Expose/Hide Selected Device Parameters in Mixer` | Display plugin parameters in the mixer as sliders. It's the default behavior for some native devices, such as the Compressor and Mixer EQ. | See [1.4.1](https://github.com/untilde/paketti-unofficial-manual/blob/main/Documentation/1%20-%20Tools%20menu.md#141---exposehide-selected-device-parameters-in-mixer). |
 | `Expose/Hide Selected Track ALL Device Parameters` | Same as above, but applies to all devices in the selected track. | See [1.4.1](https://github.com/untilde/paketti-unofficial-manual/blob/main/Documentation/1%20-%20Tools%20menu.md#141---exposehide-selected-device-parameters-in-mixer). |
-| `Hide Track DSP Devices for All Tracks` | | | 
+| `Hide Track DSP Devices for All Tracks` | If External Editors for any devices on Track DSP are visible, this will hide their External Editors. | | 
 | `Bypass/Enable All Devices on Track` | Self-explanatory. Useful to check pre/post processing. In other words, how the FX chain is affecting signals in a particular track. | |
 | `Load AU/VST/VST3 Plugins Dialog` | A pop-up window to quickly load instrument plugins or add them as keyboard shortcuts. These plugin shortcuts can be found under the Keys tab in Renoise Preferences. | See [1.4.2](https://github.com/untilde/paketti-unofficial-manual/blob/main/Documentation/1%20-%20Tools%20menu.md#142---load-auvstvst3-plugins-dialog). | 
 | `Open Visible Pages to Fit Plugin Parameter Count` | Fully expands a plugin/device window so all the parameter sliders are visible. | |
@@ -105,7 +104,7 @@ For users who do not have external hardware sequencers, a good use case for the 
 
 ![image](https://github.com/untilde/paketti-unofficial-manual/assets/20494933/b840bc3b-7f6a-4a83-8e45-89e08cba3b76)
 
-Paketti will then generate a new track for each plugin, with automatic MIDI In/Out configuration and Send placement (if enabled).
+Paketti will then generate a new track for each plugin, with automatic MIDI In/Out configuration and Send population (if enabled), and also `#Line-In Device` placement for all tracks, in case the objective is to use audio inputs..
 
 
 
