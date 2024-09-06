@@ -5,14 +5,16 @@ Paketti is a multipurpose Renoise tool. Working like an expansion pack, it deliv
 
 It is far too complex to sum up in just a few words. However, some notable changes include:
 
-* Hundreds of new keybinds covering multiple areas of Renoise;
-* Automatically build drum kits with macros for PitchBend, Glide Amount, Cutoff, Resonance, Overdrive, Parallel Compression, Cutoff LFO Frequency, Cutoff LFO Amount.
+* Over two thousand new keybinds covering multiple areas of Renoise;
+* Default XRNI functionality - each loaded instrument or drumkit has Pitchbend, Glide Amount, Cutoff, Resonance, Cutoff LFO Amount, Cutoff LFO Frequency, Overdrive, Parallel Compression.
 * Automatically load multiple samples into sequential instrument slots;
 * Device parameter randomizer;
-* Change default computer keyboard Velocity with midi mapping;
+* Plugin parameter randomizer;
+* Change default computer keyboard Velocity with Midi Mapping;
+* Change Global Grooves with Midi Mapping;
 * Quick live resample (auto starts real time playback and resamples incoming audio);
-* Quick switch autosuspend for plugins;
-* Bypass all devices in selected track;
+* Quick switch autosuspend for Selected Plugin;
+* Bypass all devices in Selected Track;
 * Floating window to insert plugins or devices and add them as keybinds;
 * Floating interactable FX column cheat sheet, including sliders to quickly write modulation in your sequences;
 * Pattern doubler/halver (duplicates the pattern, and the automation);
