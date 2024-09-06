@@ -1,7 +1,7 @@
 # About
 This is an unofficial manual for the Paketti Renoise tool, based on Release [20240609121053](https://github.com/esaruoho/org.lackluster.Paketti.xrnx/releases/tag/20240609121053).
 
-Paketti is a multipurpose Renoise tool. Working like an expansion pack, it delivers hundreds of new functionalities to the DAW, ranging from quality of life improvements to new advanced features inspired by Schism Tracker, ModPlugTracker, Player Pro and many others. It also addresses multiple community requests from the Renoise Forum that were not yet considered by the developers. 
+Paketti is a multipurpose Renoise tool. Working like an expansion pack, it delivers hundreds of new functionalities to the app, ranging from Quality-of-Life (QoL) improvements to new advanced features inspired by Impulse Tracker, Schism Tracker, ModPlugTracker, Player Pro, John Player/Quantum SoundTracker/PollyTracker, OctaMED and many others. It also addresses multiple community requests from the Renoise Forum that were not yet considered by the developers. 
 
 It is far too complex to sum up in just a few words. However, some notable changes include:
 
@@ -12,20 +12,20 @@ It is far too complex to sum up in just a few words. However, some notable chang
 * Plugin parameter randomizer;
 * Change default computer keyboard Velocity with Midi Mapping;
 * Change Global Grooves with Midi Mapping;
-* Quick live resample (auto starts real time playback and resamples incoming audio);
+* Freeze & Flatten Track -> Creates a new Track with content playing. Also Records incoming audio if `#Line-in Device` is in the Selected Track;
 * Quick switch autosuspend for Selected Plugin;
 * Bypass all devices in Selected Track;
-* Floating window to insert plugins or devices and add them as keybinds;
-* Floating interactable FX column cheat sheet, including sliders to quickly write modulation in your sequences;
-* Pattern doubler/halver (duplicates the pattern, and the automation);
-* Color/highlight the selected track in pattern editor (with editmode);
-* Dozens of shortcuts for pattern AND phrase editing;
-* Impulse Tracker (.it) key commands (ALT-D, ALT-L, ALT-U, ALT-F, ALT-G, F2 F3 F4 F5 F6 F8);
-* Quickly add automation curves to pattern automation (fade ins/fade outs (linear or exponential), pitchbend/panning);
-* Show/hide device parameters as sliders in the Mixer;
-* Control selected sample loop start/endpoints with MIDI;
-* Control Automation start / endSelection via Midi
-* Control Sample Buffer start / endSelection
+* Floating window to insert plugins or Devices and add them as keybinds and MidiMappings;
+* Floating interactable FX column cheat sheet, including sliders to quickly write changes to row or selection in pattern in your pattern;
+* Pattern doubler/halver (duplicates the Pattern content, and the automation);
+* Color/highlight the selected track in Pattern Editor (with EditMode (Record On/Off);
+* Dozens of shortcuts for Pattern AND Phrase editing;
+* Impulse Tracker (.it) key commands (ALT-D *2, ALT-L *2, ALT-U, ALT-F, ALT-G, ALT-Y, Home *2, End *2, F2 F3 F4 F5 F6 F8 F12);
+* Quickly add Automation curves to pattern automation (fade ins/fade outs (linear or exponential), pitchbend/panning);
+* Show/hide Device parameters as sliders in the Mixer;
+* Control Selected Sample loop start/endpoints with MIDI;
+* Control Automation start / endSelection via MidiMappings
+* Control Sample Buffer start / endSelection via MidiMappings
 * And much much more!
 
 An extensive list of additions is available at the official [Paketti GitHub page](https://github.com/esaruoho/org.lackluster.Paketti.xrnx/).
@@ -43,4 +43,5 @@ For better comprehension, this manual is divided into sections. Each chapter cor
 8) Phrase Editor
 
 # Credits
-Paketti is a project by Esa Ruoho, a.k.a Lackluster. More information [here](https://github.com/esaruoho/org.lackluster.Paketti.xrnx/blob/master/README.md#thanks).
+Paketti is a project by Esa Ruoho, a.k.a Lackluster (@esaruoho). More information [here](https://github.com/esaruoho/org.lackluster.Paketti.xrnx/blob/master/README.md#thanks).
+This documentation was originally started by @un
