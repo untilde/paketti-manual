@@ -31,13 +31,14 @@ An extensive list of additions is available at the official [Paketti GitHub page
 # Index
 For better comprehension, this manual is divided into sections. Each chapter corresponds to a different Renoise screen/tab and can be accessed from the list below:
 
-1) [Global](https://github.com/untilde/paketti-unofficial-manual/blob/main/Documentation/1%20-%20Tools%20menu.md)
-2) [Instrument Box](https://github.com/untilde/paketti-unofficial-manual/blob/main/Documentation/2%20-%20Instrument%20Box.md)
-3) [Sampler](https://github.com/untilde/paketti-unofficial-manual/blob/main/Documentation/3%20-%20Sampler.md)
-4) [Pattern Editor](https://github.com/untilde/paketti-unofficial-manual/blob/main/Documentation/4%20-%20Pattern%20Editor.md)
-5) Pattern Matrix
-6) Mixer
-7) Phrase Editor
+1) [Global](Documentation/01-ToolsMenu.md)
+2) [Instrument Box](Documentation/02-InstrumentBox.md)
+3) [Sampler](Documentation/03-SampleEditor.md)
+4) [Pattern Editor](Documentation/04-PatternEditor.md)
+5) [Automation](Documentation/05-Automation.md)
+6) Pattern Matrix
+7) Mixer
+8) Phrase Editor
 
 # Credits
 Paketti is a project by Esa Ruoho, a.k.a Lackluster. More information [here](https://github.com/esaruoho/org.lackluster.Paketti.xrnx/blob/master/README.md#thanks).
