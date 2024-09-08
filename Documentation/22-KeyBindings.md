@@ -2,6 +2,7 @@
 
 (Extracted on 2024-09-08 (YYYY-MM-DD) using "Paketti KeyBindings Dialog".
 
+```
 0001     Global                   Paketti                  ∿ 12st PitchBend Instrument Init                                  <Shortcut not Assigned>
 0002     Global                   Paketti                  ∿ 24st PitchBend Instrument Init                                  <Shortcut not Assigned>
 0003     Global                   Paketti                  ∿ 36st PitchBend Instrument Init                                  <Shortcut not Assigned>
@@ -2210,3 +2211,4 @@
 2206     Sample Keyzones          Paketti                  ∿ Convert Mono to Stereo                                          <Shortcut not Assigned>
 2207     Sample Keyzones          Paketti                  ∿ Mono to Left with Blank Right                                   <Shortcut not Assigned>
 2208     Sample Keyzones          Paketti                  ∿ Mono to Right with Blank Left                                   <Shortcut not Assigned>
+```
