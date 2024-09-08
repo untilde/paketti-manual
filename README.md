@@ -41,6 +41,7 @@ For better comprehension, this manual is divided into sections. Each chapter cor
 6) Pattern Matrix
 7) Mixer
 8) Phrase Editor
+9) [Paketti KeyBindings](Documentation/22-KeyBindings.md)
 
 # Credits
 Paketti is a project by Esa Ruoho, a.k.a Lackluster (@esaruoho). More information [here](https://github.com/esaruoho/org.lackluster.Paketti.xrnx/blob/master/README.md#thanks).
