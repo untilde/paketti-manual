@@ -47,29 +47,42 @@ there's a 8 part 16 step stepsequencer which also outputs to the pattern editor,
 a brief demo at https://www.twitch.tv/videos/2282270660
 
 there's dozens of impulsetracker/screamtracker3 shortcuts for pattern editing and modification, some of which have been recently supercharged to also allow for selecting automation, gif here meaning when you select something using paketti shortcuts, it will also select the automation, if automation is visible. this can be combined with the midiknobs for drawing automation curves easily.
+![alt-d alt-u with automation](https://github.com/user-attachments/assets/d58d4e85-d79a-4593-b738-2712dae5e098)
+
 
 i've added dynamic views which let you have a max of 8 shortcuts which cycle through the settings that you have picked. each of the 8 shortcuts can have max 8 different cycles. 
-
+<img width="1468" alt="Screenshot 2024-10-23 at 15 46 33" src="https://github.com/user-attachments/assets/246e911d-9522-4ed0-8e06-e0c57e31370e">
 so you have maximum control over "view presets" but they're much more powerful than the 8 that renoise allows you to have, because they remember their state. so you could for instance cycle , with one shortcut, from pattern editor to sample editor + show sample recorder, then press the same shortcut to hit mixer, show disk browser + pattern matrix + instrument box, then again to only show pattern editor and automation, or something else.
 
 there's a method of creating 16 new tracks with 16 midi input channels and 16 midi output channels and 16 plugin devices, automatic send generation and line input generation, for those who want to use renoise with an external sequencer with a multi-out soundcard, or those who want to use renoise as a sequencer for external synthesizers and want to map the midioutput channels themselves. all of the generated samples will have midi control devices set up directly, and automation ready to go.
+<img width="824" alt="Screenshot 2024-10-28 at 17 47 40" src="https://github.com/user-attachments/assets/40ad3f08-72d9-4f74-b668-c6cf38fd1f8c">
 
 there's a dialog for changing the default phrase settings, and a shortcut for creating a new phrase with those settings.
+<img width="684" alt="Screenshot 2024-10-28 at 17 47 52" src="https://github.com/user-attachments/assets/db5aea29-5634-4dde-a61a-178e46711123">
 
 there's also shortcuts for saving the selected sample as a wav or flac, using windows explorer or macos finder.
+
 there's the eSpeak text-to-speech speechsynth which requires espeak-ng to be installed on the computer but allows for generating spoken word samples..
+<img width="385" alt="Screenshot 2024-10-28 at 17 48 14" src="https://github.com/user-attachments/assets/b62eadd9-3afa-402b-a17e-35f9d87db8df">
+
+
 the same shortcut + midimapping loader for devices, is also available for plugins, so vst,vst3,audiounit,ladspa,dssi softsynths can be shot to the instrument box with shortcuts + midimappings
 
 there's randomizers for parameters of selected device, a mono-device which can be added or toggled on/off from the channel for quickly monoing
-there's an inverter device which inverts the audio
+<img width="969" alt="Screenshot 2024-10-28 at 17 48 30" src="https://github.com/user-attachments/assets/b45988d9-f566-4b97-bc25-e729c3ab2c92">
 
-the send and multiband send shortcuts load it "correctly" aka "Keep Source and volume at zero" as opposed to "mute source and volume at max".. 
+there's an inverter device which inverts the audio - using the Gainer device. This can be added to both the Sample FX Chain and the Track DSP Chains.
+
+The send and multiband send shortcuts load the native devices "correctly" aka "Keep Source and volume at zero" as opposed to "mute source and volume at max".. 
+<img width="1036" alt="Screenshot 2024-10-28 at 17 49 45" src="https://github.com/user-attachments/assets/7e6f6ac2-c007-47a0-94c8-ef50820f95e7">
 
 there's a trick loader which lets you load 20minutes of audio or more and have it play till the end, even if the pattern is 16 rows of length, utilizing 0G01 (Glide/Portamento at 01)
 there's a midimapping + shortcut that 1) shows sample recorder 2) starts recording 3) press the shortcut again, it stops the recording, throws in the 8 macros
 so you can quickly start recording anything by just pressing the shortcut or holding down a midi button, let go of the midibutton, sampling stops
 
 there's a pattern cheatsheet which lets you input pattern commands to either selected row or selection in pattern:
+<img width="621" alt="Screenshot 2024-10-28 at 17 50 01" src="https://github.com/user-attachments/assets/57086eb7-b7c9-47f0-a4da-ff4f22e4624d">
+
 
 there's shortcuts + midimappings for inputting volume, panning, delay, samplefx effect commands and effect parameters to the selection in pattern
 
@@ -78,7 +91,6 @@ there's "flood fill by editstep" shortcuts which let you take what's under your 
 there's a replicate at cursor shortcut, which enables this kind of stuff:
 
 https://www.loom.com/share/a437d74618934e9db634ceb41b1c5b9a?sid=ead6a274-1a6a-4ea1-a068-344fed4aef23
-
 
 there's a "Set Repeater Value" Knob midimapping which will either 1) add repeater and activate it 2)detect repeater exists and modify the parameters, allowing for stuff like this:
 
