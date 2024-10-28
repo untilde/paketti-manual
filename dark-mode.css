@@ -3,13 +3,16 @@ body {
     background-color: #121212;
     color: #ffffff;
     font-family: Arial, sans-serif;
+    margin-left: 220px; /* Space for the sidebar */
+    padding: 20px;
 }
 
+/* Sidebar styling */
 .sidebar-links {
     position: fixed;
-    top: 60px;
+    top: 0;
     left: 0;
-    padding: 15px;
+    padding: 20px;
     background-color: #1e1e1e;
     color: #ffffff;
     width: 200px;
@@ -18,6 +21,7 @@ body {
     box-shadow: 2px 0 5px rgba(0, 0, 0, 0.3);
 }
 
+/* Sidebar links styling */
 .sidebar-links a {
     display: block;
     margin: 10px 0;
@@ -28,9 +32,4 @@ body {
 
 .sidebar-links a:hover {
     color: #ffffff;
-}
-
-main {
-    margin-left: 220px;
-    padding: 20px;
 }
