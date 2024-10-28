@@ -90,6 +90,8 @@ there's "flood fill by editstep" shortcuts which let you take what's under your 
 
 there's a replicate at cursor shortcut, which enables this kind of stuff:
 
+<div style="position: relative; padding-bottom: 64.90384615384616%; height: 0;"><iframe src="https://www.loom.com/embed/a437d74618934e9db634ceb41b1c5b9a?sid=10a1da7b-de26-4b44-87b0-dcc735ba62c9" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
+
 https://www.loom.com/share/a437d74618934e9db634ceb41b1c5b9a?sid=ead6a274-1a6a-4ea1-a068-344fed4aef23
 
 there's a "Set Repeater Value" Knob midimapping which will either 1) add repeater and activate it 2)detect repeater exists and modify the parameters, allowing for stuff like this:
