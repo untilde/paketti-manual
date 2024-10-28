@@ -10,8 +10,8 @@ theme:
       name: "Switch to dark mode"
     scheme: "slate"  # Optional: Set default to dark mode
 extra_css:
-  - dark-mode.css
+  - dark-mode.css   # Link to your dark-mode.css file here
 extra_javascript:
-  - dark-light-toggle.js
+  - dark-light-toggle.js  # Optional: Link JavaScript if you want a dark/light mode toggle
 nav:
   - Home: index.md
