@@ -3,7 +3,7 @@ name: Deploy GitHub Pages
 on:
   push:
     branches:
-      - main  # Adjust to your main branch
+      - main
 
 jobs:
   build-and-deploy:
@@ -13,18 +13,11 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v3
 
-      # Step to set up Jekyll if using it, or other dependencies if needed
-      - name: Setup Ruby (for Jekyll)
-        uses: ruby/setup-ruby@v1
-        with:
-          ruby-version: '3.0'
-          bundler-cache: true
-
-      - name: Install dependencies
-        run: bundle install
+      - name: Install MkDocs
+        run: pip install mkdocs
 
       - name: Build site
-        run: bundle exec jekyll build -d build
+        run: mkdocs build -d build
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
