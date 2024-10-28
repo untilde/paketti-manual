@@ -1,4 +1,4 @@
-<script>
+// Toggle Dark/Light Mode and save preference in localStorage
 function toggleTheme() {
   const darkMode = localStorage.getItem("darkMode") === "enabled";
   if (darkMode) {
@@ -9,9 +9,10 @@ function toggleTheme() {
     localStorage.setItem("darkMode", "enabled");
   }
 }
+
+// Apply saved theme on page load
 window.onload = function() {
   if (localStorage.getItem("darkMode") === "enabled") {
     document.body.classList.add("dark-mode");
   }
-}
-</script>
+};
