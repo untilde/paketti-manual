@@ -167,11 +167,9 @@ the reason why there's LPB + BPM control is that the BPM in Renoise Master track
 i think the reason why i forgot to mention this was that i have had a tough time finding anyone to tell me what else could be done. i did experiments of using automation to change lower frame, middle frame, upper frame views, for instance. basically any script can be run like this. but i couldn't get anyone to talk to me about what they wanted and gave up and forgot about it
 
 
-#roadmap
+# Roadmap
 what's on the roadmap; i'm slowly processing through all the "Ideas and Suggestions" "Beginners questions" and filtering them into a todo-list of "this can be scripted, i'll do it" and this means there's hundreds and hundreds of forthcoming features. if anything is obscure or feels like it needs an explanation, please mention and i'll clarify it as best i can
 one thing i wanted to specify is that i've downloaded all the 2002-2024 posts from "Ideas and Suggestions" forum (all 7361 posts) and multiple thousands of posts from Beginners Questions, Tool Development and Tool Announcement, and i'm filtering through them, retaining the ones that I can script into Paketti, ignoring the ones that would be too complex, and slowly will be adding them to Paketti as I get around to it. also rescuing other tools from oblivion like the martblek ReSpeak tool which he abandoned -- and other such things. so it's a long roadmap of things that i've got on my plate 🙂
-
-
 
 
 
