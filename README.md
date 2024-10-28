@@ -7,7 +7,7 @@
    <a href="https://lackluster.gumroad.com/l/paketti" target="_blank">Gumroad Paketti</a>
    <h3>Table of Contents</h3>
    <a href="README.md">Main page</a>
-   <a href="docs/01-ToolsMenu.md">Tools Menu</a>
+   <a href="docs/01-ToolsMenu.md">Tools MASDFADSFDASFADSFSADFenu</a>
    <a href="docs/02-InstrumentBox.md">Instrument Box</a>
    <a href="docs/03-SampleEditor.md">Sample Editor</a>
    <a href="docs/04-PatternEditor.md">Pattern Editor</a>
