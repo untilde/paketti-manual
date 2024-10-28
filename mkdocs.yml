@@ -1,20 +1,22 @@
-site_name: "Paketti - A Framework or Firmware update to Renoise"
-docs_dir: "Documentation"  # Points to the Documentation folder
+site_name: "Paketti - A Framework / Firmware update for Renoise created by Esa Ruoho a.k.a. Lackluster"
+docs_dir: "Documentation"  # Directory for your Markdown files and assets
 theme:
-  name: "material"
+  name: "material"  # Use Material theme for modern styling
   palette:
     primary: "indigo"
     accent: "indigo"
     toggle:
       icon: "material/brightness-4"
       name: "Switch to dark mode"
-    scheme: "slate"  # Optional: Set default to dark mode
+    scheme: "slate"  # Optional: Default to dark mode
 extra_css:
-  - Documentation/dark-mode.css   # This includes dark-mode.css in the generated CSS
+  - dark-mode.css  # Link your dark mode CSS file here
 extra_javascript:
-  - dark-light-toggle.js  # Optional: Link JavaScript if you want a dark/light mode toggle
+  - dark-light-toggle.js  # Link JavaScript file for dark/light mode toggle
+
+# Define the site navigation, linking each page in your Documentation folder
 nav:
-  - Home: index.md  # This should match the actual home file name, or create one if missing
+  - Home: index.md
   - Tools Menu: 01-ToolsMenu.md
   - Instrument Box: 02-InstrumentBox.md
   - Sample Editor: 03-SampleEditor.md
