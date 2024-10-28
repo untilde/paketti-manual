@@ -1,18 +1,18 @@
 site_name: "Paketti - A Framework / Firmware update for Renoise created by Esa Ruoho a.k.a. Lackluster"
-docs_dir: "docs"  # Folder for additional documentation files
+docs_dir: "docs"  # Additional documentation files live here
 
 theme:
   name: "material"
   palette:
     primary: "indigo"
     accent: "indigo"
-    scheme: "slate"  # Default dark mode
+    scheme: "slate"  # Default to dark mode
 
 extra_css:
-  - dark-mode.css  # Link to dark mode styling
+  - ../dark-mode.css  # Link dark mode CSS from the root directory
 
 nav:
-  - Main page: ../README.md  # Point to the converted README.md
+  - Main page: ../README.md  # Use README.md as the homepage
   - Table of Contents:
       - Main page: ../README.md
       - Docs:
