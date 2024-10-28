@@ -13,19 +13,22 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v3
 
-      - name: Generate Table of Contents Sidebar
+      # Step to ensure dark-mode.css exists
+      - name: Verify CSS file
         run: |
-          echo '<div class="sidebar-links">' > sidebar.html
-          for file in docs/*.md; do
-            filename=$(basename -- "$file")
-            title=$(head -1 "$file" | sed 's/# //')
-            echo "<a href='$file'>${title:-$filename}</a>" >> sidebar.html
-          done
-          echo '</div>' >> sidebar.html
-          cat sidebar.html >> README.md
+          if [ ! -f dark-mode.css ]; then echo "dark-mode.css is missing"; exit 1; fi
 
+      - name: Install MkDocs and Material Theme
+        run: |
+          pip install mkdocs mkdocs-material
+
+      # Build the MkDocs site
+      - name: Build site
+        run: mkdocs build -d build
+
+      # Deploy the site to GitHub Pages
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: .
+          publish_dir: ./build
