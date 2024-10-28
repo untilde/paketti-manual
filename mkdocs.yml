@@ -1,5 +1,5 @@
 site_name: "Paketti - A Framework / Firmware update for Renoise created by Esa Ruoho a.k.a. Lackluster"
-docs_dir: "Documentation"  # Directory for your Markdown files and assets
+docs_dir: "docs"  # Directory for your Markdown files and assets
 theme:
   name: "material"  # Use Material theme for modern styling
   palette:
