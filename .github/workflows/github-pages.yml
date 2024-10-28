@@ -13,11 +13,12 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v3
 
-      # Step to ensure dark-mode.css exists
+      # Ensure CSS exists
       - name: Verify CSS file
         run: |
           if [ ! -f dark-mode.css ]; then echo "dark-mode.css is missing"; exit 1; fi
 
+      # Install MkDocs and Material Theme
       - name: Install MkDocs and Material Theme
         run: |
           pip install mkdocs mkdocs-material
