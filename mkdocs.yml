@@ -14,4 +14,10 @@ extra_css:
 extra_javascript:
   - dark-light-toggle.js  # Optional: Link JavaScript if you want a dark/light mode toggle
 nav:
-  - Home: index.md
+  - Home: index.md  # This should match the actual home file name, or create one if missing
+  - Tools Menu: 01-ToolsMenu.md
+  - Instrument Box: 02-InstrumentBox.md
+  - Sample Editor: 03-SampleEditor.md
+  - Pattern Editor: 04-PatternEditor.md
+  - Automation: 05-Automation.md
+  - Key Bindings: 22-KeyBindings.md
