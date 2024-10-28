@@ -242,5 +242,12 @@ For better comprehension, this manual is divided into sections. Each chapter cor
 Paketti is a project by Esa Ruoho, a.k.a Lackluster (@esaruoho). More information [here](https://github.com/esaruoho/org.lackluster.Paketti.xrnx/blob/master/README.md#thanks).
 This documentation was originally started by @un
 </main>
-<link rel="stylesheet" href="assets/dark-mode.css">
-<div class="sidebar-links"><a href="http://patreon.com/esaruoho" target="_blank">Patreon</a><a href="https://github.com/esaruoho/org.lackluster.Paketti.xrnx/" target="_blank">GitHub Paketti</a><a href="https://discord.gg/Qex7k5j4wG" target="_blank">Discord</a><a href="https://lackluster.gumroad.com/l/paketti" target="_blank">Gumroad Paketti</a></div>
+<div class="sidebar-links">
+<a href='docs/01-ToolsMenu.md'>1 - 'Tools' Menu</a>
+<a href='docs/02-InstrumentBox.md'>2 - Instrument Box</a>
+<a href='docs/03-SampleEditor.md'>3 - Sampler</a>
+<a href='docs/04-PatternEditor.md'>4 - Pattern Editor</a>
+<a href='docs/05-Automation.md'>1 - Automation Features</a>
+<a href='docs/22-KeyBindings.md'>Paketti KeyBindings</a>
+<a href='docs/index.md'>Welcome to Paketti Manual</a>
+</div>
