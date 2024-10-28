@@ -1,5 +1,5 @@
 # About
-This is an unofficial manual for the Paketti Renoise tool, based on Release [20240609121053](https://github.com/esaruoho/org.lackluster.Paketti.xrnx/releases/tag/20240609121053).
+This is an unofficial manual for the Paketti Renoise tool, based on Release [20240609121053](https://github.com/esaruoho/org.lackluster.Paketti.xrnx/releases).
 
 Paketti is a multipurpose Renoise tool. Working like an expansion pack, it delivers hundreds of new functionalities to the app, ranging from Quality-of-Life (QoL) improvements to new advanced features inspired by Impulse Tracker, Schism Tracker, ModPlugTracker, Player Pro, John Player/Quantum SoundTracker/PollyTracker, OctaMED and many others. It also addresses multiple community requests from the Renoise Forum that were not yet considered by the developers. 
 
@@ -33,15 +33,15 @@ An extensive list of additions is available at the official [Paketti GitHub page
 # Index
 For better comprehension, this manual is divided into sections. Each chapter corresponds to a different Renoise screen/tab and can be accessed from the list below:
 
-1) [Global](Documentation/01-ToolsMenu.md)
+1) [Global](docs/01-ToolsMenu.md)
    
-2) [Instrument Box](Documentation/02-InstrumentBox.md)
+2) [Instrument Box](docs/02-InstrumentBox.md)
    
-3) [Sampler](Documentation/03-SampleEditor.md)
+3) [Sampler](docs/03-SampleEditor.md)
    
-4) [Pattern Editor](Documentation/04-PatternEditor.md)
+4) [Pattern Editor](docs/04-PatternEditor.md)
    
-5) [Automation](Documentation/05-Automation.md)
+5) [Automation](docs/05-Automation.md)
    
 6) Pattern Matrix
  
@@ -49,7 +49,7 @@ For better comprehension, this manual is divided into sections. Each chapter cor
    
 8) Phrase Editor
  
-9) [Paketti KeyBindings](Documentation/22-KeyBindings.md)
+9) [Paketti KeyBindings](docs/22-KeyBindings.md)
 
 # Credits
 Paketti is a project by Esa Ruoho, a.k.a Lackluster (@esaruoho). More information [here](https://github.com/esaruoho/org.lackluster.Paketti.xrnx/blob/master/README.md#thanks).
