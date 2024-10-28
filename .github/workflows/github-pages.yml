@@ -17,8 +17,8 @@ jobs:
       # Step 2: Ensure dark-mode.css and dark-light-toggle.js are present in the Documentation folder
       - name: Verify CSS and JavaScript Files
         run: |
-          if [ ! -f ./Documentation/dark-mode.css ]; then echo "dark-mode.css is missing"; exit 1; fi
-          if [ ! -f ./Documentation/dark-light-toggle.js ]; then echo "dark-light-toggle.js is missing"; exit 1; fi
+          if [ ! -f ./docs/dark-mode.css ]; then echo "dark-mode.css is missing"; exit 1; fi
+          if [ ! -f ./docs/dark-light-toggle.js ]; then echo "dark-light-toggle.js is missing"; exit 1; fi
 
       # Step 3: Install MkDocs and Material Theme for building
       - name: Install MkDocs and Material Theme
