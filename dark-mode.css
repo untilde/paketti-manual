@@ -1,11 +1,10 @@
-/* Dark mode styling for the main page */
+/* Dark mode styling */
 body {
-    background-color: #121212; /* Dark background */
-    color: #ffffff;            /* White text */
+    background-color: #121212;
+    color: #ffffff;
     font-family: Arial, sans-serif;
 }
 
-/* Sidebar styling */
 .sidebar-links {
     position: fixed;
     top: 60px;
@@ -19,21 +18,19 @@ body {
     box-shadow: 2px 0 5px rgba(0, 0, 0, 0.3);
 }
 
-/* Sidebar link styling */
 .sidebar-links a {
     display: block;
     margin: 10px 0;
-    color: #bb86fc;            /* Light purple for visibility */
+    color: #bb86fc;
     font-weight: bold;
     text-decoration: none;
 }
 
 .sidebar-links a:hover {
-    color: #ffffff;            /* White text on hover */
+    color: #ffffff;
 }
 
-/* Padding for main content to prevent overlap with sidebar */
 main {
-    margin-left: 220px;        /* Matches sidebar width */
+    margin-left: 220px;
     padding: 20px;
 }
