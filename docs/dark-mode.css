@@ -23,28 +23,27 @@ header, footer, nav {
     text-align: center;
 }
 
-/* Sidebar container styling */
+
+/* Sidebar styling - Move sidebar out of the main text area */
 .sidebar-links {
     position: fixed;
     top: 60px;
-    left: 10px;
+    left: 0;
     padding: 15px;
     background-color: #1e1e1e;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    width: 180px;
-    max-height: 80vh;
+    color: #ffffff;
+    width: 200px;
+    height: 100vh;
     overflow-y: auto;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.3);
 }
 
-/* Sidebar links styling */
-.sidebar-links a {
-    display: block;
-    margin: 10px 0;
-    color: #bb86fc;
-    font-weight: bold;
-    text-decoration: none;
+/* Add margin to the main content to avoid overlap with sidebar */
+main {
+    margin-left: 220px; /* Matches sidebar width */
+    padding: 20px;
 }
+
 
 .sidebar-links a:hover {
     color: #ffffff;
