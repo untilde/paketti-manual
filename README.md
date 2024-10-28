@@ -8,7 +8,6 @@
 </div>
 
 <main>
-
 # Text
 
 when you install Paketti, there are a few tentpole features or main features that i think are the most cool.
