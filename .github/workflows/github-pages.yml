@@ -1,4 +1,4 @@
-name: Deploy Paketti GitHub Pages with Dark Mode
+name: Deploy Paketti GitHub Pages with README.md
 
 on:
   push:
@@ -14,24 +14,15 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v3
 
-      # Step 2: Ensure dark-mode.css and dark-light-toggle.js are present in the Documentation folder
-      - name: Verify CSS and JavaScript Files
+      # Step 2: Inject CSS link and sidebar links into README.md for GitHub Pages
+      - name: Update README.md with Sidebar and CSS
         run: |
-          if [ ! -f ./docs/dark-mode.css ]; then echo "dark-mode.css is missing"; exit 1; fi
-          if [ ! -f ./docs/dark-light-toggle.js ]; then echo "dark-light-toggle.js is missing"; exit 1; fi
+          echo '<link rel="stylesheet" href="assets/dark-mode.css">' >> README.md
+          echo '<div class="sidebar-links"><a href="http://patreon.com/esaruoho" target="_blank">Patreon</a><a href="https://github.com/esaruoho/org.lackluster.Paketti.xrnx/" target="_blank">GitHub Paketti</a><a href="https://discord.gg/Qex7k5j4wG" target="_blank">Discord</a><a href="https://lackluster.gumroad.com/l/paketti" target="_blank">Gumroad Paketti</a></div>' >> README.md
 
-      # Step 3: Install MkDocs and Material Theme for building
-      - name: Install MkDocs and Material Theme
-        run: |
-          pip install mkdocs mkdocs-material
-
-      # Step 4: Build the MkDocs site
-      - name: Build site
-        run: mkdocs build -d build
-
-      # Step 5: Deploy the site to GitHub Pages
+      # Step 3: Deploy to GitHub Pages
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./build
+          publish_dir: .  # Deploy directly from the root directory
