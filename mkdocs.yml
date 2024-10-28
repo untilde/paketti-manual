@@ -1,0 +1,17 @@
+site_name: "Paketti - A Framework or Firmware update to Renoise"
+docs_dir: "Documentation"  # Points to the Documentation folder
+theme:
+  name: "material"
+  palette:
+    primary: "indigo"
+    accent: "indigo"
+    toggle:
+      icon: "material/brightness-4"
+      name: "Switch to dark mode"
+    scheme: "slate"  # Optional: Set default to dark mode
+extra_css:
+  - dark-mode.css
+extra_javascript:
+  - dark-light-toggle.js
+nav:
+  - Home: index.md
