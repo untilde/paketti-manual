@@ -3,7 +3,7 @@ name: Deploy GitHub Pages with Dark Mode and Sidebar Links
 on:
   push:
     branches:
-      - main
+      - main  # or whichever branch you're deploying from
 
 jobs:
   build-and-deploy:
@@ -13,18 +13,7 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v3
 
-      - name: Create Documentation Directory
-        run: mkdir -p ./Documentation
-
-      - name: Create Dark Mode CSS
-        run: |
-          echo '/* Dark mode styling */' > ./Documentation/dark-mode.css
-          echo 'body { background-color: #121212; color: #ffffff; }' >> ./Documentation/dark-mode.css
-          echo 'a { color: #bb86fc; }' >> ./Documentation/dark-mode.css
-          echo 'header, footer, nav { background-color: #1e1e1e; color: #ffffff; }' >> ./Documentation/dark-mode.css
-          echo '.sidebar-links { margin-top: 20px; } .sidebar-links a { display: block; margin: 10px 0; color: #bb86fc; text-decoration: none; }' >> ./Documentation/dark-mode.css
-
-      - name: Create Toggle Script for Dark/Light Mode
+      - name: Add Dark/Light Mode Toggle JavaScript
         run: |
           echo '<script>' > ./Documentation/dark-light-toggle.js
           echo 'function toggleTheme() {' >> ./Documentation/dark-light-toggle.js
@@ -44,14 +33,14 @@ jobs:
           echo '}' >> ./Documentation/dark-light-toggle.js
           echo '</script>' >> ./Documentation/dark-light-toggle.js
 
-      - name: Add CSS, Script, and Sidebar Links to HTML
+      - name: Link CSS, Script, and Sidebar Links in HTML
         run: |
           if [ -f ./Documentation/index.html ]; then
-            # Link CSS and JavaScript for toggle
+            # Link existing CSS and JavaScript for toggle
             sed -i '/<\/head>/i <link rel="stylesheet" href="dark-mode.css">' ./Documentation/index.html
             sed -i '/<\/head>/i <script src="dark-light-toggle.js"></script>' ./Documentation/index.html
             # Add dark/light mode toggle button
-            sed -i '/<body>/a <button onclick="toggleTheme()" style="position:fixed;top:10px;right:10px;">Toggle Dark/Light Mode</button>' ./Documentation/index.html
+            sed -i '/<body>/a <button onclick="toggleTheme()" class="toggle-button">Toggle Dark/Light Mode</button>' ./Documentation/index.html
             # Add sidebar links
             sed -i '/<body>/a <div class="sidebar-links"><a href="http://patreon.com/esaruoho" target="_blank">Patreon</a><a href="https://github.com/esaruoho/org.lackluster.Paketti.xrnx/" target="_blank">GitHub Paketti</a><a href="https://discord.gg/Qex7k5j4wG" target="_blank">Discord</a><a href="https://lackluster.gumroad.com/l/paketti" target="_blank">Gumroad Paketti</a></div>' ./Documentation/index.html
           fi
