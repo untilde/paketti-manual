@@ -1,0 +1,5 @@
+/* Dark mode styling */
+body { background-color: #121212; color: #ffffff; }
+a { color: #bb86fc; }
+header, footer, nav { background-color: #1e1e1e; color: #ffffff; }
+.sidebar-links { margin-top: 20px; } .sidebar-links a { display: block; margin: 10px 0; color: #bb86fc; text-decoration: none; }
