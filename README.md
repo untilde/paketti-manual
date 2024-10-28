@@ -1,3 +1,14 @@
+<link rel="stylesheet" href="dark-mode.css">
+
+<div class="sidebar-links">
+   <a href="http://patreon.com/esaruoho" target="_blank">Patreon</a>
+   <a href="https://github.com/esaruoho/org.lackluster.Paketti.xrnx/" target="_blank">GitHub Paketti</a>
+   <a href="https://discord.gg/Qex7k5j4wG" target="_blank">Discord</a>
+   <a href="https://lackluster.gumroad.com/l/paketti" target="_blank">Gumroad Paketti</a>
+</div>
+
+<main>
+
 # Text
 
 when you install Paketti, there are a few tentpole features or main features that i think are the most cool.
@@ -231,5 +242,6 @@ For better comprehension, this manual is divided into sections. Each chapter cor
 # Credits
 Paketti is a project by Esa Ruoho, a.k.a Lackluster (@esaruoho). More information [here](https://github.com/esaruoho/org.lackluster.Paketti.xrnx/blob/master/README.md#thanks).
 This documentation was originally started by @un
+</main>
 <link rel="stylesheet" href="assets/dark-mode.css">
 <div class="sidebar-links"><a href="http://patreon.com/esaruoho" target="_blank">Patreon</a><a href="https://github.com/esaruoho/org.lackluster.Paketti.xrnx/" target="_blank">GitHub Paketti</a><a href="https://discord.gg/Qex7k5j4wG" target="_blank">Discord</a><a href="https://lackluster.gumroad.com/l/paketti" target="_blank">Gumroad Paketti</a></div>
