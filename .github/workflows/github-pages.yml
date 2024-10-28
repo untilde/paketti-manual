@@ -1,28 +1,31 @@
-name: Deploy Paketti GitHub Pages with README.md
+name: Deploy Paketti GitHub Pages with Sidebar and Dark Mode
 
 on:
   push:
     branches:
-      - main  # Triggers on push to the main branch
+      - main
 
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
 
     steps:
-      # Step 1: Check out the code
       - name: Checkout code
         uses: actions/checkout@v3
 
-      # Step 2: Inject CSS link and sidebar links into README.md for GitHub Pages
-      - name: Update README.md with Sidebar and CSS
+      - name: Generate Table of Contents Sidebar
         run: |
-          echo '<link rel="stylesheet" href="assets/dark-mode.css">' >> README.md
-          echo '<div class="sidebar-links"><a href="http://patreon.com/esaruoho" target="_blank">Patreon</a><a href="https://github.com/esaruoho/org.lackluster.Paketti.xrnx/" target="_blank">GitHub Paketti</a><a href="https://discord.gg/Qex7k5j4wG" target="_blank">Discord</a><a href="https://lackluster.gumroad.com/l/paketti" target="_blank">Gumroad Paketti</a></div>' >> README.md
+          echo '<div class="sidebar-links">' > sidebar.html
+          for file in docs/*.md; do
+            filename=$(basename -- "$file")
+            title=$(head -1 "$file" | sed 's/# //')
+            echo "<a href='$file'>${title:-$filename}</a>" >> sidebar.html
+          done
+          echo '</div>' >> sidebar.html
+          cat sidebar.html >> README.md
 
-      # Step 3: Deploy to GitHub Pages
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: .  # Deploy directly from the root directory
+          publish_dir: .
