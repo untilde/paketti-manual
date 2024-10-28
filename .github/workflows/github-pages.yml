@@ -56,9 +56,10 @@ jobs:
             sed -i '/<body>/a <div class="sidebar-links"><a href="http://patreon.com/esaruoho" target="_blank">Patreon</a><a href="https://github.com/esaruoho/org.lackluster.Paketti.xrnx/" target="_blank">GitHub Paketti</a><a href="https://discord.gg/Qex7k5j4wG" target="_blank">Discord</a><a href="https://lackluster.gumroad.com/l/paketti" target="_blank">Gumroad Paketti</a></div>' ./Documentation/index.html
           fi
 
-      # Continue with the usual build and deploy steps for MkDocs or other generators
-      - name: Install MkDocs
-        run: pip install mkdocs
+      - name: Install MkDocs and Material Theme
+        run: |
+          pip install mkdocs
+          pip install mkdocs-material
 
       - name: Build site
         run: mkdocs build -d build
