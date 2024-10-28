@@ -34,13 +34,21 @@ An extensive list of additions is available at the official [Paketti GitHub page
 For better comprehension, this manual is divided into sections. Each chapter corresponds to a different Renoise screen/tab and can be accessed from the list below:
 
 1) [Global](Documentation/01-ToolsMenu.md)
+   
 2) [Instrument Box](Documentation/02-InstrumentBox.md)
+   
 3) [Sampler](Documentation/03-SampleEditor.md)
+   
 4) [Pattern Editor](Documentation/04-PatternEditor.md)
+   
 5) [Automation](Documentation/05-Automation.md)
+   
 6) Pattern Matrix
+ 
 7) Mixer
+   
 8) Phrase Editor
+ 
 9) [Paketti KeyBindings](Documentation/22-KeyBindings.md)
 
 # Credits
