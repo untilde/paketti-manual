@@ -1,4 +1,4 @@
-name: Deploy Paketti GitHub Pages with Sidebar and Dark Mode
+name: Deploy Paketti GitHub Pages with Static Sidebar and Dark Mode
 
 on:
   push:
@@ -13,23 +13,39 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v3
 
-      # Ensure CSS exists
-      - name: Verify CSS file
+      - name: Convert Markdown to HTML with Sidebar
         run: |
+          # Ensure CSS file exists
           if [ ! -f dark-mode.css ]; then echo "dark-mode.css is missing"; exit 1; fi
 
-      # Install MkDocs and Material Theme
-      - name: Install MkDocs and Material Theme
-        run: |
-          pip install mkdocs mkdocs-material
+          # Create output directory for HTML files
+          mkdir -p site
 
-      # Build the MkDocs site
-      - name: Build site
-        run: mkdocs build -d build
+          # Create sidebar HTML
+          echo '<div class="sidebar-links">' > site/sidebar.html
+          echo '<a href="index.html">Main page</a>' >> site/sidebar.html
+          for file in docs/*.md; do
+            filename=$(basename -- "$file" .md)
+            title=$(head -1 "$file" | sed 's/# //')
+            echo "<a href='$filename.html'>${title:-$filename}</a>" >> site/sidebar.html
+          done
+          echo '</div>' >> site/sidebar.html
 
-      # Deploy the site to GitHub Pages
+          # Convert README.md and docs/*.md to HTML with sidebar and CSS
+          echo '<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Paketti Manual</title><link rel="stylesheet" href="../dark-mode.css"></head><body>' > site/header.html
+          echo '</body></html>' > site/footer.html
+
+          # Convert README.md to HTML with sidebar
+          pandoc README.md -s -o site/index.html --css dark-mode.css --include-before-body=site/sidebar.html --include-in-header=site/header.html --include-after-body=site/footer.html
+
+          # Convert each .md file to HTML with the same sidebar
+          for file in docs/*.md; do
+            filename=$(basename -- "$file" .md)
+            pandoc "$file" -s -o "site/$filename.html" --css dark-mode.css --include-before-body=site/sidebar.html --include-in-header=site/header.html --include-after-body=site/footer.html
+          done
+
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./build
+          publish_dir: ./site
