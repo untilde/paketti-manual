@@ -3,7 +3,7 @@ name: Deploy GitHub Pages with Dark Mode and Sidebar Links
 on:
   push:
     branches:
-      - main  # or whichever branch you're deploying from
+      - main
 
 jobs:
   build-and-deploy:
