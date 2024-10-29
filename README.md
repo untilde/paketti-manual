@@ -1,14 +1,10 @@
 <link rel="stylesheet" href="dark-mode.css">
 
-<div class="sidebar-links">
    <a href="http://patreon.com/esaruoho" target="_blank">Patreon</a>
    <a href="https://github.com/esaruoho/org.lackluster.Paketti.xrnx/" target="_blank">GitHub Paketti</a>
    <a href="https://discord.gg/Qex7k5j4wG" target="_blank">Discord</a>
    <a href="https://lackluster.gumroad.com/l/paketti" target="_blank">Gumroad Paketti</a>
-</div>
-
-<main>
-   
+<main>   
 # Text
 
 when you install Paketti, there are a few tentpole features or main features that i think are the most cool.
