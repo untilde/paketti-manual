@@ -7,7 +7,7 @@
 
 [[_TOC_]]
 
- 1. [Brickwall text that needs editing](#Brickwall text that needs editing)
+ 1. [Brickwall text that needs editing](#Brickwall-text-that-needs-editing)
  2. [Roadmap](#Roadmap)
  3. [Old About](#old-about)
  4. [Old Index](#Index)
