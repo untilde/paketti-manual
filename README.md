@@ -1,11 +1,11 @@
 <link rel="stylesheet" href="dark-mode.css">
 
-   <a href="http://patreon.com/esaruoho" target="_blank">Patreon</a>
-   <a href="https://github.com/esaruoho/org.lackluster.Paketti.xrnx/" target="_blank">GitHub Paketti</a>
-   <a href="https://discord.gg/Qex7k5j4wG" target="_blank">Discord</a>
-   <a href="https://lackluster.gumroad.com/l/paketti" target="_blank">Gumroad Paketti</a>
-<main>   
-# Text
+[Patreon Paketti](http://patreon.com/esaruoho
+[GitHub Paketti](https://github.com/esaruoho/org.lackluster.Paketti.xrnx/)
+[Discord Paketti](https://discord.gg/Qex7k5j4wG)
+[Gumroad Paketti](http://lackluster.gumroad.com/l/paketti)
+
+# Brickwall text that needs editing
 
 when you install Paketti, there are a few tentpole features or main features that i think are the most cool.
 
