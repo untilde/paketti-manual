@@ -10,8 +10,8 @@
  1. [Brickwall text that needs editing](#01-brickwall)
  2. [Roadmap](#02-Roadmap)
  3. [Old About](#03-old-about)
- 4. [Old Index](04-Index)
- 5. [Credits](05-Credits)
+ 4. [Old Index](#04-Index)
+ 5. [Credits](#05-Credits)
 
 
 # Brickwall text that needs editing
