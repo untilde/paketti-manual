@@ -21,15 +21,6 @@ body {
     box-shadow: 2px 0 5px rgba(0, 0, 0, 0.3);
 }
 
-/* Sidebar links styling */
-.sidebar-links a {
-    display: block;
-    margin: 10px 0;
-    color: #bb86fc;
-    font-weight: bold;
-    text-decoration: none;
-}
-
 .sidebar-links a:hover {
     color: #ffffff;
 }
