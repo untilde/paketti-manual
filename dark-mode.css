@@ -1,26 +1,6 @@
-/* Dark mode styling */
 body {
     background-color: #121212;
     color: #ffffff;
     font-family: Arial, sans-serif;
-    margin-left: 220px; /* Space for the sidebar */
-    padding: 20px;
-}
-
-/* Sidebar styling */
-.sidebar-links {
-    position: fixed;
-    top: 0;
-    left: 0;
-    padding: 20px;
-    background-color: #1e1e1e;
-    color: #ffffff;
-    width: 200px;
-    height: 100vh;
-    overflow-y: auto;
-    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.3);
-}
-
-.sidebar-links a:hover {
-    color: #ffffff;
+    padding: 10px;
 }
