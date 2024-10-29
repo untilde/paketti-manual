@@ -1,3 +1,4 @@
+<link rel="stylesheet" href="../dark-mode.css">
 # 1 - 'Tools' Menu
 
 Settings for Paketti can be found under Tools -> Paketti. This menu also includes some shortcuts for useful features:

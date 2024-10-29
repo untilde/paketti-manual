@@ -1,3 +1,4 @@
+<link rel="stylesheet" href="../dark-mode.css">
 # 2 - Instrument Box
 
 By right-clicking the Instrument Box (by default, located on the right corner of the screen) another set of Paketti features is available:

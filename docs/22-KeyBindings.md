@@ -1,3 +1,4 @@
+<link rel="stylesheet" href="../dark-mode.css">
 # Paketti KeyBindings
 
 (Extracted on 2024-09-08 (YYYY-MM-DD) using "Paketti KeyBindings Dialog".
