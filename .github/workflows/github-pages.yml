@@ -13,14 +13,19 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v3
 
-      # Ensure dark-mode.css exists in the root directory
-      - name: Verify CSS file
+      # Add CSS link to each Markdown file in docs/
+      - name: Add dark-mode.css link to Markdown files
         run: |
-          if [ ! -f dark-mode.css ]; then echo "dark-mode.css is missing"; exit 1; fi
+          for file in docs/*.md; do
+            # Check if the file already includes the CSS link to avoid duplicates
+            if ! grep -q 'dark-mode.css' "$file"; then
+              sed -i '1i <link rel="stylesheet" href="../dark-mode.css">' "$file"
+            fi
+          done
 
       # Deploy to GitHub Pages
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: .  # Deploy directly from the root directory
+          publish_dir: .
