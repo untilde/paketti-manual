@@ -1,6 +1,6 @@
 <link rel="stylesheet" href="dark-mode.css">
 
-[Patreon Paketti](http://patreon.com/esaruoho
+[Patreon Paketti](http://patreon.com/esaruoho)
 [GitHub Paketti](https://github.com/esaruoho/org.lackluster.Paketti.xrnx/)
 [Discord Paketti](https://discord.gg/Qex7k5j4wG)
 [Gumroad Paketti](http://lackluster.gumroad.com/l/paketti)
