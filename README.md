@@ -5,17 +5,17 @@
 [Discord Paketti](https://discord.gg/Qex7k5j4wG) |
 [Gumroad Paketti](http://lackluster.gumroad.com/l/paketti) |
 
- 1. [What is Paketti](#What-is-paketti)
- 2. [What people say about Paketti](#what-people-say-about-paketti)
- 3. [Where to say things about Paketti](#where-to-say-things-about-paketti)
- 4. [How to Support](#How-to-support)
- 5. [Brickwall](#Brickwall)
- 6. [Roadmap](#Roadmap)
- 7. [Old About](#old-about)
- 8. [Credits](#Credits)
- 9. [Old Index](#Index)
+ 1. [What is Paketti](#what-is-paketti)
+ 3. [What people say about Paketti](#what-people-say-about-paketti)
+ 4. [Where to say things about Paketti](#where-to-say-things-about-paketti)
+ 5. [How to Support](#how-to-support)
+ 6. [Brickwall](#brickwall)
+ 7. [Roadmap](#roadmap)
+ 8. [Old About](#old-about)
+ 9. [Credits](#credits)
+ 10. [Old Index](#index)
 
-# What is Paketti
+## What is Paketti
 
 Paketti has been called a firmware update or a framework for Renoise. It introduces thousands of shortcuts, hundreds of midimappings, over 30 dialogs and multiple multiple tweaks to Renoise. 
 
