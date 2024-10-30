@@ -1,6 +1,46 @@
+/* Base styling for dark mode */
 body {
     background-color: #121212;
     color: #ffffff;
     font-family: Arial, sans-serif;
     padding: 10px;
+}
+
+/* Table styling for dark theme */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #1e1e1e; /* Dark background for table */
+    color: #ffffff; /* White text for readability */
+}
+
+th, td {
+    padding: 10px;
+    border: 1px solid #444444; /* Dark gray borders for separation */
+}
+
+th {
+    background-color: #2a2a2a; /* Slightly darker background for header cells */
+    color: #bb86fc; /* Light purple for header text */
+    font-weight: bold;
+}
+
+td {
+    background-color: #1e1e1e; /* Same dark background for data cells */
+}
+
+/* Optional: Alternate row colors */
+tr:nth-child(even) td {
+    background-color: #2a2a2a; /* Slightly lighter dark background for alternate rows */
+}
+
+/* Link styling in tables and throughout */
+a {
+    color: #bb86fc;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #ffffff;
+    text-decoration: underline;
 }
