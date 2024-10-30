@@ -5,8 +5,6 @@
 [Discord Paketti](https://discord.gg/Qex7k5j4wG) |
 [Gumroad Paketti](http://lackluster.gumroad.com/l/paketti) |
 
-[[_TOC_]]
-
  1. [What is Paketti?](#What-is-paketti)
  2. [What people say about Paketti](#what-people-say-about-paketti)
  3. [Where to say things about Paketti](#where-to-say-things-about-paketti)
@@ -14,8 +12,8 @@
  5. [Brickwall](#Brickwall)
  6. [Roadmap](#Roadmap)
  7. [Old About](#old-about)
- 8. [Old Index](#Index)
- 9. [Credits](#Credits)
+ 8. [Credits](#Credits)
+ 9. [Old Index](#Index)
 
 # What is Paketti?
 
@@ -43,15 +41,17 @@ Paketti has been called a firmware update or a framework for Renoise. It introdu
 
 ## Where to say things about Paketti
 
-- Join the Paketti Discord at https://discord.gg/Qex7k5j4wG
-- Leave issues here on GitHub https://github.com/esaruoho/org.lackluster.Paketti.xrnx/issues
-- Hit the mostly dead Renoise Forum Paketti thread at https://forum.renoise.com/t/new-tool-3-1-paketti-now-compatible-with-renoise-v3-v3-4-4/
+- Join the [Paketti Discord](https://discord.gg/Qex7k5j4wG)
+- Leave issues here on [GitHub](https://github.com/esaruoho/org.lackluster.Paketti.xrnx/issues)
+- Hit the mostly dead [Renoise Forum Paketti thread](https://forum.renoise.com/t/new-tool-3-1-paketti-now-compatible-with-renoise-v3-v3-4-4/)
 
 # How to Support
 
-You can join my [Patreon](http://patreon.com/esaruoho) as a monthly supporter. This adds up and would help me.
-Or send me a donation via [PayPal](http://paypal.me/esaruoho). 
-Or buy Paketti via [Gumroad](https://lackluster.gumroad.com/l/paketti) - for 50€.
+You can 
+- Join my [Patreon](http://patreon.com/esaruoho) as a monthly supporter. This adds up and would help me. There are different level tiers from 3€ to 300€.
+- Sponsor me on GitHub at [GitHub Sponsors](https://github.com/sponsors/esaruoho)
+- Send me a donation via [PayPal](http://paypal.me/esaruoho). 
+- Buy Paketti via [Gumroad](https://lackluster.gumroad.com/l/paketti) for a one time purchase.
 
 # Roadmap
 I'm slowly processing through a bunch of Renoise Forums, such as "Ideas and Suggestions", "Beginners Questions" and filtering through them one thread at a time to see new ideas, deciding "This can be scripted" -> and add it to the todo-list.
@@ -72,14 +72,24 @@ Hence why it's useful if I can get as much support as I can to keep going at thi
 
 Paketti tries to circumvent some of the most painful points of Renoise, and replace them with better, easier, faster, more user-friendly solutions.
 
+## Loading and Saving Samples
+
 One of them is the complete dismissal of the Disk Browser. You don't need to use it to load samples. In fact, I would encourage you to never use it for loading or saving samples - just use the Paketti solutions.
 
 For that, you just use the "Paketti PitchBend Multiple Sample Loader" & "Paketti PitchBend Drumkit Loader" shortcuts. they will load a sample, and immediately initialize it with:
 PitchBend 2. Cutoff 3. Resonance 4. Cutoff LFO Frequency 5. Cutoff LFO Amp (4+5 are used for autofilter like features) 6. OverDrive 7. Parallel Compression 8. PitchBend Glide/Inertia (set it to max, and your regular midicontroller pitchbend input will be very slow, set it to minimum, pitchbending will be immediate). Everytime you load something using Paketti Loaders, the Paketti Preferences are used to introduce your preferred loopmode, autofade, autoseek, oneshot, interpolation setting, New note Action, selected FilterType.  for these, there's a Default XRNI instrument being used, which comes with Paketti. you can of course replace it with a completely different XRNI - which will then get it's sample overwritten on every load.
 
-the `*Instr. Macros` device that is added to the track you are on, when you load the sample, allows you to directly start automating the macro parameters. Meaning, you would load a sample using Paketti, input a few notes to the pattern editor, and immediately be able to start drawing automation for any of the 8 macro controls. so you could for instance put in a drumloop, and start drawing a cutoff automation curve directly to modulate the cutoff parameter.
+The `*Instr. Macros` device that is added to the track you are on, when you load the sample, allows you to directly start automating the macro parameters. Meaning, you would load a sample using Paketti, input a few notes to the pattern editor, and immediately be able to start drawing automation for any of the 8 macro controls. so you could for instance put in a drumloop, and start drawing a cutoff automation curve directly to modulate the cutoff parameter.
 
-the DrumKit loader loads a max of 120 samples into the instrument. load more, it will only load 120 samples. same with the 8 macros, same with the instr macros. the drums are mapped automatically from C0 to B9. the Windows Explorer or macOS Finder is used for selecting files, meaning no Disk Browser use at all.
+The DrumKit loader loads a max of 120 samples into the instrument. load more, it will only load 120 samples. same with the 8 macros, same with the instr macros. the drums are mapped automatically from C0 to B9. the Windows Explorer or macOS Finder is used for selecting files, meaning no Disk Browser use at all.
+
+There's shortcuts and midimappings for saving the current sample as .WAV or .FLAC. There's also shortcuts+midimappings for saving the current selection in the Sample Editor to .WAV or .FLAC.
+
+
+
+
+
+## Loading Devices and Plugins
 
 another is the introduction of shortcuts and midimappings for loading your preferred native devices (both regular, and hidden/legacy effects), your favorite VST,VST3,AudioUnit/LADSPA/DSSI devices. this means that you go to the Tools -> Paketti -> Plugins/Devices -> Device Loader dialog, and check your favorites, click on "add as shortcut/midimapping" and from here onwards, you can map the newly created shortcuts for loading your devices onto the track you are on. if you're in sample fx chain mode, those devices will be loaded instead of to track dsp. it means you can for instance (in my usecase) press shift-q e r t z a v  and out come 7 devices to the selected track.  same with midibuttons, after selecting your favorites, you can use the midi mappings to set up midibuttons for loading your desired device onto your selected track.
 
@@ -104,12 +114,11 @@ there's a Paketti Theme Selector which currently includes over 510 themes, you c
 
 there's a Paketti Gater for directly writing in looping  volume gates, retrig gates, sample-playback-backwards gates and panning gates. each of these rows have their own steps, min 1 max 16. so if you have a 512 row pattern and use a 16 row volume gater, then it'll keep looping till the end of the 512 row patterns. or if you have a 3 row panning step, those 3 steps will repeat until the end of the pattern, and so on. these are also designed to type directly to the pattern editor, either for volume control of sample, or volume control of the mixer channel.
 
-there's a 8 part 16 step stepsequencer which also outputs to the pattern editor, you can load 120 samples to each part, pick your preferred sound, and use checkboxes to make them play, probability checkboxes to modify how likely they are to play, draw automation directly by clicking on show automation (leveraging the 8 macros introduced on every load) and use buttons to randomize step sequencer content, selecting a random sample for each part, or selecting random samples for each part.. and you can limit the steps from 16 to 1 at will.
+There's a 8 part 16 step stepsequencer which writes directly to the Pattern Editor. You can load 120 samples into each part, pick your preferred sound, and use checkboxes to make them play. Probability checkboxes to modify how likely the step per part is to play, can draw automation directly by clicking on Show Automation (leveraging the 8 macros introduced on every Sample Load) and use buttons to randomize step sequencer content, select a random sample for all parts, or selecting random samples for each part, reverse any of the part or all part samples.. and you can limit the steps from 16 to 1 at will.
 a brief demo at https://www.twitch.tv/videos/2282270660
 
-there's dozens of impulsetracker/screamtracker3 shortcuts for pattern editing and modification, some of which have been recently supercharged to also allow for selecting automation, gif here meaning when you select something using paketti shortcuts, it will also select the automation, if automation is visible. this can be combined with the midiknobs for drawing automation curves easily.
+There's dozens of impulsetracker/screamtracker3 shortcuts for pattern editing and modification, some of which have been recently supercharged to also allow for selecting automation, gif here meaning when you select something using paketti shortcuts, it will also select the automation, if automation is visible. this can be combined with the midiknobs for drawing automation curves easily.
 ![alt-d alt-u with automation](https://github.com/user-attachments/assets/d58d4e85-d79a-4593-b738-2712dae5e098)
-
 
 i've added dynamic views which let you have a max of 8 shortcuts which cycle through the settings that you have picked. each of the 8 shortcuts can have max 8 different cycles. 
 <img width="1468" alt="Screenshot 2024-10-23 at 15 46 33" src="https://github.com/user-attachments/assets/246e911d-9522-4ed0-8e06-e0c57e31370e">
@@ -118,26 +127,34 @@ so you have maximum control over "view presets" but they're much more powerful t
 there's a method of creating 16 new tracks with 16 midi input channels and 16 midi output channels and 16 plugin devices, automatic send generation and line input generation, for those who want to use renoise with an external sequencer with a multi-out soundcard, or those who want to use renoise as a sequencer for external synthesizers and want to map the midioutput channels themselves. all of the generated samples will have midi control devices set up directly, and automation ready to go.
 <img width="824" alt="Screenshot 2024-10-28 at 17 47 40" src="https://github.com/user-attachments/assets/40ad3f08-72d9-4f74-b668-c6cf38fd1f8c">
 
-there's a dialog for changing the default phrase settings, and a shortcut for creating a new phrase with those settings.
+#### Default Phrase Settings
+This allows you to set your Phrase Preferences - i.e., when you use the Paketti -specific shortcut for creating or modifying current Phrase, the settings will be added.
 <img width="684" alt="Screenshot 2024-10-28 at 17 47 52" src="https://github.com/user-attachments/assets/db5aea29-5634-4dde-a61a-178e46711123">
 
 there's also shortcuts for saving the selected sample as a wav or flac, using windows explorer or macos finder.
 
-there's the eSpeak text-to-speech speechsynth which requires espeak-ng to be installed on the computer but allows for generating spoken word samples..
+#### eSpeak Text-to-Speech speechsynthesizer
+
+This uses `espeak-ng` for creating spoken word samples using text-to-speech synthesis.
 <img width="385" alt="Screenshot 2024-10-28 at 17 48 14" src="https://github.com/user-attachments/assets/b62eadd9-3afa-402b-a17e-35f9d87db8df">
+
+
+there's randomizers for parameters of selected device, a mono-device which can be added or toggled on/off from the channel for quickly monoing
+<img width="969" alt="Screenshot 2024-10-28 at 17 48 30" src="https://github.com/user-attachments/assets/b45988d9-f566-4b97-bc25-e729c3ab2c92">
 
 
 the same shortcut + midimapping loader for devices, is also available for plugins, so vst,vst3,audiounit,ladspa,dssi softsynths can be shot to the instrument box with shortcuts + midimappings
 
-there's randomizers for parameters of selected device, a mono-device which can be added or toggled on/off from the channel for quickly monoing
-<img width="969" alt="Screenshot 2024-10-28 at 17 48 30" src="https://github.com/user-attachments/assets/b45988d9-f566-4b97-bc25-e729c3ab2c92">
 
 there's an inverter device which inverts the audio - using the Gainer device. This can be added to both the Sample FX Chain and the Track DSP Chains.
 
 The send and multiband send shortcuts load the native devices "correctly" aka "Keep Source and volume at zero" as opposed to "mute source and volume at max".. 
 <img width="1036" alt="Screenshot 2024-10-28 at 17 49 45" src="https://github.com/user-attachments/assets/7e6f6ac2-c007-47a0-94c8-ef50820f95e7">
 
-there's a trick loader which lets you load 20minutes of audio or more and have it play till the end, even if the pattern is 16 rows of length, utilizing 0G01 (Glide/Portamento at 01)
+### 0G01 Loader
+
+This uses the `G01` (Glide to note) trick to allow for playing really long samples, even if the pattern would be shorter than the length of the sample. The sample will play until the end, and then replay again at the start of the next replay. This means you can have a 4 second drumloop but play 20 minutes of pads on top of it.
+
 there's a midimapping + shortcut that 1) shows sample recorder 2) starts recording 3) press the shortcut again, it stops the recording, throws in the 8 macros
 so you can quickly start recording anything by just pressing the shortcut or holding down a midi button, let go of the midibutton, sampling stops
 
@@ -159,7 +176,7 @@ there's a "Set Repeater Value" Knob midimapping which will either 1) add repeate
 
 https://www.loom.com/share/f4f94d05045a4df49896d52202d3adf7?sid=9c7c6c79-005d-48f4-ba21-ac06475b5bfc
 
-there's shortcuts for changing pattern length to 4, 8, 16, 24, 32, 48, 64, 96, 128, 256, 512 - methods for duplicating content with 1-256 row patterns to double it, then LPB*2 diskwriting aka rendering a new sample, but making a clone of the pattern and setting it's LPB to current LPB, then the clone of the pattern has LPB times two, and the audio playing there.   there's seamless rendering, aka if you have anything below 257 rows of pattern, it will duplicate it, render it, select the beginning 256 rows (so you can delete them if you like) and add a loop to the other 256 rows so you can have a reliably looping (mostly) long pad with tail mixed in..  mono to stereo converters for sample data (mono to left, right blank, mono to right, left blank, mono to stereo with both).. there's a yt-dlp downloader that downloads the full audio from a youtube video, instagram, facebook, twitter posts, and it already has the macros loaded in.. and there's multiple missing shortcuts for sample pitch finetune panning loop etc controls, same for midi.. i could go on. i've done max 4 hour demos of going through all the features, normally around 45minutes to 1,5hours depending on what i remember to show
+there's shortcuts for changing pattern length to 4, 8, 16, 24, 32, 48, 64, 96, 128, 256, 512 - methods for duplicating content with 1-256 row patterns to double it, then `LPB*2` diskwriting aka rendering a new sample, but making a clone of the pattern and setting it's LPB to current LPB, then the clone of the pattern has LPB times two, and the audio playing there.  there's seamless rendering, aka if you have anything below 257 rows of pattern, it will duplicate it, render it, select the beginning 256 rows (so you can delete them if you like) and add a loop to the other 256 rows so you can have a reliably looping (mostly) long pad with tail mixed in..  mono to stereo converters for sample data (mono to left, right blank, mono to right, left blank, mono to stereo with both).. there's a yt-dlp downloader that downloads the full audio from a youtube video, instagram, facebook, twitter posts, and it already has the macros loaded in.. and there's multiple missing shortcuts for sample pitch finetune panning loop etc controls, same for midi.. i could go on. i've done max 4 hour demos of going through all the features, normally around 45minutes to 1,5hours depending on what i remember to show
 
 there's "Duplicate Instrument and Reverse" - which both makes a copy of the currently selected instrument, and then reverses the sample, and selects the sample.
 Duplicate Track and Instrument - will take the notes that are there in the current track. + track dsps, and make a new track, select the track, and duplicate the instrument. and if you have a plugin open in the original instrument, and duplicate the instrument with this script, then it closes the plugin external editor, and duplicates the instrument, jumps to the newly created track, and opens the plugin's external editor for it.
@@ -168,9 +185,6 @@ there's a "duplicate track with selected instrument", meaning you can keep copyi
 
 the randomize with percentage was from ModPlugTracker. there's also a bunch of features from PlayerPro, such as this note inputting dialog, which lets you input notes, with editstep, to selection, or current row, meaning you can do stuff like this. there's also a method of hovering the mouse to write effect columns to the selection in pattern..
 i've also replicated the OctaMED Pick/Put Note technique, which lets you pick any note column + effect column content, and put it down. think of it like macros for note column + effect column content.  you can do them with shortcuts (both picking up and putting down) but also with midi. so you could for instance have chords grabbed and keep slamming them down - there's also controls for printing the information with a specific instrument.
-
-
-there's also shortcuts for "save selection as .wav / .flac" for the sample editor. and for a selection in sample editor, you can press a shortcut to "create new instrument & loop". there's "mute or solo selection in pattern",  expand/shrink selection content shortcuts, set selection to selected instrument.. bypass all effects in track, or enable.. show all parameters of all devices in track
 
 one thing i keep forgetting is the Launch App Selection. you can define 6 apps, and when you run the shortcut, or menu entry, or click on "Send selected sample" in the dialog, it saves a temporary file and loads it in the app. such as audacity, apple music, ableton live (straight to session view). there's also a backup folder (3 places) where it saves to one of the three places depending on the shortcut
 
@@ -188,6 +202,8 @@ there's a global shortcut for Clone Current Sequence,
 Resize all non-empty patterns to 96 rows..  and Resize all non-empty patterns to <current pattern> rows
 Create Identical Track - takes the Note Columns / Effect Columns & Visible Columns&copies
 
+For a selection in sample editor, you can press a shortcut to "create new instrument & loop". there's "mute or solo selection in pattern",  expand/shrink selection content shortcuts, set selection to selected instrument.. bypass all effects in track, or enable.. show all parameters of all devices in track
+
 Oblique Strategies Dialog / Loader - it will randomly pick one Oblique Strategy from a list on the status whenever you save or load a song or restart Renoise
 Paketti Midi Mappings - it shows some of the Paketti MidiMappings and if you have Midi Mapping "Learn" mode on, you can actually pick them yourself and assign them easily. for better discoverability
 Output Routings dialog that shows all the tracks and lets you set the Output Routings in case you have a multi-out soundcard
@@ -197,7 +213,7 @@ Phrase Doubler / Halver (takes the content of the Phrase and increases the size 
 Set Phrase Length to 001-004-006-008-012-016-024-032-048-064-096-128-192-256-384-512
 Set Phrase LPB 1-256
 same for pattern LPB
-Print current BPM & LPB to Master track of Pattern - so can modify the tempo in another pattern -good for LPB*2 i.e. increasing resolution
+Print current BPM & LPB to Master track of Pattern - so can modify the tempo in another pattern -good for `LPB*2` i.e. increasing resolution
 Keep Sequence Sorted True/False/Toggle
 15 frame fade in fade out for reducing clicks
 Duplicate sample, maximize audio, turn to 16bit, save as wav or flac (in case you want to deliver them or post them somewhere)
@@ -252,19 +268,13 @@ the reason why there's LPB + BPM control is that the BPM in Renoise Master track
 
 i think the reason why i forgot to mention this was that i have had a tough time finding anyone to tell me what else could be done. i did experiments of using automation to change lower frame, middle frame, upper frame views, for instance. basically any script can be run like this. but i couldn't get anyone to talk to me about what they wanted and gave up and forgot about it
 
-
-
-
-
-
 # Old About
-This is an unofficial manual for the Paketti Renoise tool, based on Release [20240609121053](https://github.com/esaruoho/org.lackluster.Paketti.xrnx/releases).
 
 Paketti is a multipurpose Renoise tool. Working like an expansion pack, it delivers hundreds of new functionalities to the app, ranging from Quality-of-Life (QoL) improvements to new advanced features inspired by Impulse Tracker, Schism Tracker, ModPlugTracker, Player Pro, John Player/Quantum SoundTracker/PollyTracker, OctaMED and many others. It also addresses multiple community requests from the Renoise Forum that were not yet considered by the developers. 
 
 It is far too complex to sum up in just a few words. However, some notable changes include:
 
-* Over two thousand new keybinds covering multiple areas of Renoise;
+* Over three thousand new keybinds covering multiple areas of Renoise;
 * Default XRNI functionality - each loaded instrument or drumkit has Pitchbend, Glide Amount, Cutoff, Resonance, Cutoff LFO Amount, Cutoff LFO Frequency, Overdrive, Parallel Compression.
 * Automatically load multiple samples into sequential instrument slots;
 * Device parameter randomizer;
@@ -279,27 +289,33 @@ It is far too complex to sum up in just a few words. However, some notable chang
 * Pattern doubler/halver (duplicates the Pattern content, and the automation);
 * Color/highlight the selected track in Pattern Editor (with EditMode (Record On/Off);
 * Dozens of shortcuts for Pattern AND Phrase editing;
-* Impulse Tracker (.it) key commands (ALT-D *2, ALT-L *2, ALT-U, ALT-F, ALT-G, ALT-Y, Home *2, End *2, F2 F3 F4 F5 F6 F8 F12);
+* Impulse Tracker (.it) key commands (`ALT-D *2`, `ALT-L *2`, `ALT-U`, `ALT-F`, `ALT-G`, `ALT-Y`, `Home *2`, `End *2`, `F2 F3 F4 F5 F6 F8 F12`);
 * Quickly add Automation curves to pattern automation (fade ins/fade outs (linear or exponential), pitchbend/panning);
-* Show/hide Device parameters as sliders in the Mixer;
+* Show/Hide Device parameters as sliders in the Mixer;
 * Control Selected Sample loop start/endpoints with MIDI;
 * Control Automation start / endSelection via MidiMappings
 * Control Sample Buffer start / endSelection via MidiMappings
 * And much much more!
 
-An extensive list of additions is available at the official [Paketti GitHub page](https://github.com/esaruoho/org.lackluster.Paketti.xrnx/).
+# Credits
+
+The original Paketti Manual projects was started by @un, thanks a lot for that. He donated it to me, @esaruoho - and I started tweaking it a bit.
+
+Paketti is a project by Esa Ruoho, a.k.a Lackluster (@esaruoho). More information [here](https://github.com/esaruoho/org.lackluster.Paketti.xrnx/blob/master/README.md#thanks).
+This documentation was originally started by @un
+
 
 # Index
+
 For better comprehension, this manual is divided into sections. Each chapter corresponds to a different Renoise screen/tab and can be accessed from the list below:
 
 ## Global
 
 ## 1 - 'Tools' Menu
 
-Settings for Paketti can be found under Tools -> Paketti. This menu also includes some shortcuts for useful features:
+Settings for Paketti can be found under `Main Menu -> Tools -> Paketti..`. This menu also includes some shortcuts for useful features:
 
 ![image](https://github.com/untilde/paketti-unofficial-manual/assets/20494933/115269c2-fc78-4947-bf17-3711535666de)
-
 
 | Item | Description | Index |
 | --- | --- | --- |
@@ -402,10 +418,6 @@ For users who do not have external hardware sequencers, a good use case for the 
 
 Paketti will then generate a new track for each plugin, with automatic MIDI In/Out configuration and Send population (if enabled), and also `#Line-In Device` placement for all tracks, in case the objective is to use audio inputs..
 
-
-
-
-
 ## Instrument Box
 
 By right-clicking the Instrument Box (by default, located on the right corner of the screen) another set of Paketti features is available:
@@ -437,10 +449,6 @@ UNDER CONSTRUCTION
 
 ![image](https://github.com/untilde/paketti-unofficial-manual/assets/20494933/5090fc14-a94a-43c9-9178-47ed4f08ae48)
 
-
-
-
-
 ## Sampler
 
 | Item | Description | Subtopic |
@@ -450,7 +458,6 @@ UNDER CONSTRUCTION
 ## Pattern Editor
 
 ## Automation
-
 
 ## Pattern Matrix
 
@@ -2674,9 +2681,3 @@ UNDER CONSTRUCTION
 ```
 
 
-# Credits
-
-The original Paketti Manual projects was started by @un, thanks a lot for that. He donated it to me, @esaruoho - and I started tweaking it a bit.
-
-Paketti is a project by Esa Ruoho, a.k.a Lackluster (@esaruoho). More information [here](https://github.com/esaruoho/org.lackluster.Paketti.xrnx/blob/master/README.md#thanks).
-This documentation was originally started by @un
