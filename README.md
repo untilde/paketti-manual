@@ -2,7 +2,7 @@
 
 | [Patreon Paketti](http://patreon.com/esaruoho) |
 [GitHub Paketti](https://github.com/esaruoho/org.lackluster.Paketti.xrnx/) |
-[Discord Paketti](https://discord.gg/Qex7k5j4wG) |
+[Discord Paketti](https://discord.gg/xNT6eH7W) |
 [Gumroad Paketti](http://lackluster.gumroad.com/l/paketti) |
 
  1. [What is Paketti](#what-is-paketti)
