@@ -434,7 +434,7 @@ It is far too complex to sum up in just a few words. However, some notable chang
 
 # Credits
 
-The original Paketti Manual projects was started by @un, thanks a lot for that. He donated it to me, @esaruoho - and I started tweaking it a bit.
+The original Paketti Manual projects was started by @untilde, thanks a lot for that. He donated it to me, @esaruoho - and I started tweaking it a bit.
 
 Paketti is a project by Esa Ruoho, a.k.a Lackluster (@esaruoho). More information [here](https://github.com/esaruoho/org.lackluster.Paketti.xrnx/blob/master/README.md#thanks).
 This documentation was originally started by @un
