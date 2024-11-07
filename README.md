@@ -72,7 +72,9 @@ Hence why it's useful if I can get as much support as I can to keep going at thi
 
 Paketti tries to circumvent some of the most painful points of Renoise, and replace them with better, easier, faster, more user-friendly solutions.
 
-#### Loading and Saving Samples
+Paketti introduces improvements to the Pattern Editor, Sample Editor, Automation, Pattern Matrix, Instrument Box, Mixer, Device & Sample management, Theme management
+
+### Loading and Saving Samples
 
 One of them is the complete dismissal of the Disk Browser. You don't need to use it to load samples. In fact, I would encourage you to never use it for loading or saving samples - just use the Paketti solutions.
 
@@ -83,13 +85,14 @@ The `*Instr. Macros` device that is added to the track you are on, when you load
 
 The DrumKit loader loads a max of 120 samples into the instrument. load more, it will only load 120 samples. same with the 8 macros, same with the instr macros. the drums are mapped automatically from C0 to B9. the Windows Explorer or macOS Finder is used for selecting files, meaning no Disk Browser use at all.
 
-There's shortcuts and midimappings for saving the current sample as .WAV or .FLAC. There's also shortcuts+midimappings for saving the current selection in the Sample Editor to .WAV or .FLAC.
+Paketti also introduces "Save Selected Sample .WAV" & "Save Selected Sample .FLAC". There's also "Save Selected Sample Range .WAV / .FLAC". The Sample Range saving is from Fast Tracker 2.
+<img width="341" alt="Screenshot 2024-11-07 at 15 42 18" src="https://github.com/user-attachments/assets/f8090146-e741-4232-b357-8b128608fb71">
 
-#### Loading Devices and Plugins
+### Loading Devices and Plugins
 
 another is the introduction of shortcuts and midimappings for loading your preferred native devices (both regular, and hidden/legacy effects), your favorite VST,VST3,AudioUnit/LADSPA/DSSI devices. this means that you go to the Tools -> Paketti -> Plugins/Devices -> Device Loader dialog, and check your favorites, click on "add as shortcut/midimapping" and from here onwards, you can map the newly created shortcuts for loading your devices onto the track you are on. if you're in sample fx chain mode, those devices will be loaded instead of to track dsp. it means you can for instance (in my usecase) press shift-q e r t z a v  and out come 7 devices to the selected track.  same with midibuttons, after selecting your favorites, you can use the midi mappings to set up midibuttons for loading your desired device onto your selected track.
 
-#### Wipe & Slice
+### Wipe & Slice
 
 there's a mathematical slicer, which takes your drumloop and, depending on which shortcut you pick, slices it in half (two slices), or 4 to max 128 slices. meaning if your loop already loops well, you can just split it into 16-32-64 slices and start drumming away at the loop.
 
@@ -97,11 +100,11 @@ for slices, there's also a method for adjusting the slices left & right by nudgi
 
 there's also, to go with this logic, "Isolate Slices to New Instruments", which creates brand new instruments into your song, and if you say, were on slice 6 (let's say a snare), when you run the isolate slices, you'll still be on the snare, but snare as a newly created instrument.
 
-#### Freeze & Flatten a.k.a. Clean Render Selected Track or Group.
+### Freeze & Flatten a.k.a. Clean Render Selected Track or Group.
 
 there's a Clean Render Selected Track / Group. this will solo the selected track, render it as a wavefile, create a new track (named with a matching title such as "Bass (Rendered)" (if your original track was called Bass, input C-4 to the newly created track, ingest the 8 macros to it, mute the original track, collapse the original track, and if you select it, also bypass the effects in the original track. and it's ready to be automated, by default, too. if you have a line input device on the track, instead of "Highest" diskwriting speed it will switch to "Realtime" - meaning, if you have incoming audio being processed through renoise effects, that incoming audio will be recorded to the new instrument, with the effects. perfect for external synthesizers being controlled by midi, for instance.
 
-#### Improved Automation drawing, including multi-pattern automation.
+### Improved Automation drawing, including multi-pattern automation.
 
 since the renoise automation drawing is quite limited, i've added midi shortcuts and menu entries for drawing curves up/down (exponential, linear), and also added logic that if you're trying to do an "exponential to max" curve on a pitchbend/panning automation lane, it will be drawn from the center to the top, instead of from the bottom to the top.
 there's also multipattern automation drawing, meaning, you make a selection from pattern matrix and it will draw an exponential curve or linear curve from patternStart to patternEnd.
@@ -112,12 +115,12 @@ i've also introduced a "Draw Automation to Selected Automation Parameter". this 
 
 <div style="position: relative; padding-bottom: 64.90384615384616%; height: 0;"><iframe src="https://www.loom.com/embed/5b46a1dd7d5e4d82b87ff145fc38c3cb?sid=7383c8f2-6daf-44ea-a9f2-305d602f5a21" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
-#### Paketti Theme Selector
+### Paketti Theme Selector
 This dialog comes in pre-populated with 518 themes, and you can pick your favorite themes out of the mix, and have Renoise randomize through the favorites (or all themes). So every time you boot up Renoise or load a new song, a different theme will load. Great for discovering new themes.
 
 https://public-files.gumroad.com/i8xgettth9an6ibvc6l8oto44b05![image](https://github.com/user-attachments/assets/f5fcebe7-749d-417d-8fe9-fa95915c651e)
 
-#### Paketti Gater
+### Paketti Gater
 This allows directly writing in looping volume, retrig, backwardsplayback and panning gates. E
 Each of these rows have their own steps, min 1 max 16. so if you have a 512 row pattern and use a 16 row volume gater, then it'll keep looping till the end of the 512 row patterns. or if you have a 3 row panning step, those 3 steps will repeat until the end of the pattern, and so on. these are also designed to type directly to the pattern editor, either for volume control of sample, or volume control of the mixer channel.
 
@@ -126,7 +129,7 @@ https://public-files.gumroad.com/w9a7t5n7ya2or8bpe8s795x7yn47![image](https://gi
 Example:
 ![gater improvement updates](https://github.com/user-attachments/assets/97b3dc3e-6e06-4991-99d6-e9bb42fd00d6)
 
-#### Paketti Groovebox 8120
+### Paketti Groovebox 8120
 
 There's a 8 part 16 step stepsequencer which writes directly to the Pattern Editor. You can load 120 samples into each part, pick your preferred sound, and use checkboxes to make them play. Probability checkboxes to modify how likely the step per part is to play, can draw automation directly by clicking on Show Automation (leveraging the 8 macros introduced on every Sample Load) and use buttons to randomize step sequencer content, select a random sample for all parts, or selecting random samples for each part, reverse any of the part or all part samples.. and you can limit the steps from 16 to 1 at will.
 a brief demo at **SO HEY TWITCH DELETES STREAMS SO ITS GONE** // TODO I need to make a new one.
@@ -134,22 +137,22 @@ a brief demo at **SO HEY TWITCH DELETES STREAMS SO ITS GONE** // TODO I need to 
 There's dozens of impulsetracker/screamtracker3 shortcuts for pattern editing and modification, some of which have been recently supercharged to also allow for selecting automation, gif here meaning when you select something using paketti shortcuts, it will also select the automation, if automation is visible. this can be combined with the midiknobs for drawing automation curves easily.
 ![alt-d alt-u with automation](https://github.com/user-attachments/assets/d58d4e85-d79a-4593-b738-2712dae5e098)
 
-#### Dynamic Views for cycling through with shortcuts.
+### Dynamic Views for cycling through with shortcuts.
 
 The Dynamic Views let you have a max of 8 shortcuts which cycle through the view settings that you have picked. each of the 8 shortcuts can have max 8 different cycles. 
 <img width="1468" alt="Screenshot 2024-10-23 at 15 46 33" src="https://github.com/user-attachments/assets/246e911d-9522-4ed0-8e06-e0c57e31370e">
 so you have maximum control over "view presets" but they're much more powerful than the 8 that renoise allows you to have, because they remember their state. You could, for instance, cycle, with one shortcut, from Pattern Editor to Sample Editor + show Sample Recorder, then press the same shortcut to hit Mixer, show Disk Browser + Pattern Matrix + Instrument Box, then again to only show Pattern Editor and Automation.
 
-#### MIDI Populator
+### MIDI Populator
 
 there's a method of creating 16 new tracks with 16 midi input channels and 16 midi output channels and 16 plugin devices, automatic send generation and line input generation, for those who want to use renoise with an external sequencer with a multi-out soundcard, or those who want to use renoise as a sequencer for external synthesizers and want to map the midioutput channels themselves. all of the generated samples will have midi control devices set up directly, and automation ready to go.
 <img width="824" alt="Screenshot 2024-10-28 at 17 47 40" src="https://github.com/user-attachments/assets/40ad3f08-72d9-4f74-b668-c6cf38fd1f8c">
 
-#### Default Phrase Settings
+### Default Phrase Settings
 This allows you to set your Phrase Preferences - i.e., when you use the Paketti -specific shortcut for creating or modifying current Phrase, the settings will be added.
 <img width="684" alt="Screenshot 2024-10-28 at 17 47 52" src="https://github.com/user-attachments/assets/db5aea29-5634-4dde-a61a-178e46711123">
 
-#### eSpeak Text-to-Speech speechsynthesizer
+### eSpeak Text-to-Speech speechsynthesizer
 
 This uses `espeak-ng` for creating spoken word samples using text-to-speech synthesis.
 <img width="385" alt="Screenshot 2024-10-28 at 17 48 14" src="https://github.com/user-attachments/assets/b62eadd9-3afa-402b-a17e-35f9d87db8df">
@@ -390,7 +393,7 @@ Settings for Paketti can be found under `Main Menu -> Tools -> Paketti..`. This 
 | `Pattern Halver` | Sets the pattern to 1/2 current size. Works *differently* from the native keybind `CTRL+F8`, as it *does not adapt pattern content* to fit the new length. Simply put: pattern length is changed to half, but notes/commands remain in place. | |
 | `Global Visible Column (All)` | Expands all columns in all tracks: Volume, Pan, Delay and SampleFX.| |
 
-#### 1.3.1 - Effect Column CheatSheet Dialog
+### 1.3.1 - Effect Column CheatSheet Dialog
 
 Please note: the Effect Column CheatSheet also features sliders for the Volume, Pan, Delay, SampleFX and Effect Columns. Moving a slider places the correspondent value in the highlighted row or selection in pattern. It is very effective for manually programming intricate modulations: pick an effect, move the slider, move to next line, and so on. It's also the perfect companion for Renoise newcomers who still haven't learned the most important commands.
 <img width="587" alt="Screenshot 2024-09-05 at 21 07 59" src="https://github.com/user-attachments/assets/30f3622b-39ce-47b4-a3c9-3e77007577f2">
@@ -410,11 +413,11 @@ Please note: the Effect Column CheatSheet also features sliders for the Volume, 
 | `Load AU/VST/VST3 Plugins Dialog` | A pop-up window to quickly load instrument plugins or add them as keyboard shortcuts. These plugin shortcuts can be found under the Keys tab in Renoise Preferences. | See [1.4.2](https://github.com/untilde/paketti-unofficial-manual/blob/main/Documentation/1%20-%20Tools%20menu.md#142---load-auvstvst3-plugins-dialog). | 
 | `Open Visible Pages to Fit Plugin Parameter Count` | Fully expands a plugin/device window so all the parameter sliders are visible. | |
 
-#### 1.4.1 - Expose/Hide Selected Device Parameters in Mixer
+### 1.4.1 - Expose/Hide Selected Device Parameters in Mixer
 
 ![image](https://github.com/untilde/paketti-unofficial-manual/assets/20494933/9f779834-0454-41c3-a39f-b6f81d425e61)
 
-#### 1.4.2 - Load AU/VST/VST3 Plugins Dialog
+### 1.4.2 - Load AU/VST/VST3 Plugins Dialog
 
 ![image](https://github.com/untilde/paketti-unofficial-manual/assets/20494933/37facf15-9d5b-46c1-b6dd-d679520b4919)
 
@@ -424,7 +427,7 @@ The Paketti MIDI Populator is a powerful tool to automate project configuration 
 
 For users who do not have external hardware sequencers, a good use case for the MIDI Populator is to receive MIDI information from applications such as VCV Rack and Pure Data. However, a third party virtual MIDI server such as LoopBe1 may be necessary to connect these applications to Renoise. This way, you can build sequences in VCV Rack, for instance, and have audio output from VST plugins inside Renoise. Speaking of audio... a virtual audio cable (VAC) could also be used to simultaneously stream audio from VCV Rack (and other applications) to Renoise.
 
-#### 1.5.1 - MIDI Populator Quickstart
+### 1.5.1 - MIDI Populator Quickstart
 
 1. Select MIDI inputs and outputs.
 2. Manually pick a plugin for each MIDI channel or use the `Randomize VST3 Plugin Selection` to randomly pick instruments.
