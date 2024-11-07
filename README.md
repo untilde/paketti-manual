@@ -38,7 +38,9 @@ Paketti has been called a firmware update or a framework for Renoise. It introdu
 
 "I found Paketti to be the most versatile and flexible in its development direction. It has made Renoise very useful and enjoyable to use. Thank you."
 
-"You are essentially writing... a completely new framework over the engine.
+"You are essentially writing... a completely new framework over the engine."
+
+"I have no doubt that you are the most important person in the various Renoise Tools developers."
 
 ## Where to say things about Paketti
 
