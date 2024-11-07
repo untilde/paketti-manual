@@ -70,35 +70,148 @@ Hence why it's useful if I can get as much support as I can to keep going at thi
 
 # Brickwall
 
-Paketti tries to circumvent some of the most painful points of Renoise, and replace them with better, easier, faster, more user-friendly solutions.
+Paketti introduces improvements to the Pattern Editor, Sample Editor, Automation, Pattern Matrix, Instrument Box, Mixer, Device & Sample management, Theme management, Phrase Editor... etc.
+The tool tries to circumvent some of the most painful points of Renoise, and replace them with better, easier, faster, more user-friendly solutions. Quality-of-Life & Workflow improvements over "multiple mouse clicks".
 
-Paketti introduces improvements to the Pattern Editor, Sample Editor, Automation, Pattern Matrix, Instrument Box, Mixer, Device & Sample management, Theme management
+### Loading Samples
 
-### Loading and Saving Samples
+One of them is the complete dismissal of the Disk Browser. You don't need to use it to load samples or save samples. In fact, I would encourage you to never use it for loading or saving samples - just use the Paketti solutionss.
 
-One of them is the complete dismissal of the Disk Browser. You don't need to use it to load samples. In fact, I would encourage you to never use it for loading or saving samples - just use the Paketti solutions.
+The Windows Explorer and macOS Finder are far more robust and stronger solutions. When you trigger the following shortcuts or menu entries or midimappings, the Windows Explorer, or the macOS Finder will be opened - allowing you to select multiple samples from multiple folders, access the sidebar/favorites you have set yourself, and, just, be faster than the Disk Browser.
 
-For that, you just use the "Paketti PitchBend Multiple Sample Loader" & "Paketti PitchBend Drumkit Loader" shortcuts. they will load a sample, and immediately initialize it with:
-PitchBend 2. Cutoff 3. Resonance 4. Cutoff LFO Frequency 5. Cutoff LFO Amp (4+5 are used for autofilter like features) 6. OverDrive 7. Parallel Compression 8. PitchBend Glide/Inertia (set it to max, and your regular midicontroller pitchbend input will be very slow, set it to minimum, pitchbending will be immediate). Everytime you load something using Paketti Loaders, the Paketti Preferences are used to introduce your preferred loopmode, autofade, autoseek, oneshot, interpolation setting, New note Action, selected FilterType.  for these, there's a Default XRNI instrument being used, which comes with Paketti. you can of course replace it with a completely different XRNI - which will then get it's sample overwritten on every load.
+For that, you just use the `Paketti PitchBend Multiple Sample Loader` & `Paketti PitchBend Drumkit Loader` shortcuts. These will load a sample (or multiple samples), and immediately initialize it with:
+- 8 Macros (PitchBend, Cutoff, Resonance, Cutoff LFO Frequency, Cutoff LFO Amp (4+5 are used for autofilter like features), OverDrive, Parallel Compression, PitchBend Glide/Inertia) (set it to max, and your regular midicontroller pitchbend input will be very slow, set it to minimum, pitchbending will be immediate). For these, there's a Default XRNI instrument being used, which comes with Paketti. you can of course replace it with a completely different XRNI - which will then get it's sample overwritten on every load.
 
-The `*Instr. Macros` device that is added to the track you are on, when you load the sample, allows you to directly start automating the macro parameters. Meaning, you would load a sample using Paketti, input a few notes to the pattern editor, and immediately be able to start drawing automation for any of the 8 macro controls. so you could for instance put in a drumloop, and start drawing a cutoff automation curve directly to modulate the cutoff parameter.
+<img width="1022" alt="Screenshot 2024-11-07 at 16 10 24" src="https://github.com/user-attachments/assets/f7d2371a-5d71-4437-9afc-7df3afa29e1e">
 
-The DrumKit loader loads a max of 120 samples into the instrument. load more, it will only load 120 samples. same with the 8 macros, same with the instr macros. the drums are mapped automatically from C0 to B9. the Windows Explorer or macOS Finder is used for selecting files, meaning no Disk Browser use at all.
+- Paketti Preferences "Paketti Loader" preferences, such as using your preferred loopmode, autofade, autoseek, oneshot, interpolation, New Note Action, selected FilterType. 
 
-Paketti also introduces "Save Selected Sample .WAV" & "Save Selected Sample .FLAC". There's also "Save Selected Sample Range .WAV / .FLAC". The Sample Range saving is from Fast Tracker 2.
+<img width="1216" alt="Screenshot 2024-11-07 at 15 47 33" src="https://github.com/user-attachments/assets/3959fcfd-4146-4d9b-9eb8-5760982f6e5c">
+
+If you pay close attention, you'll also see a checkbox for setting the AHDSR Envelope. Yes, the Default .XRNI Instrument of Paketti also comes in with some Sample FX Chain settings. There's a:
+
+- Deactivated Mono device (Sample FX)
+- AHDSR Modulation device
+- PitchStep Modulation device
+
+Some examples below:
+
+<img width="1015" alt="Screenshot 2024-11-07 at 16 11 45" src="https://github.com/user-attachments/assets/1922b251-d5ad-4de0-a7bf-30ed7d616b91">
+
+<img width="955" alt="Screenshot 2024-11-07 at 16 11 59" src="https://github.com/user-attachments/assets/69aca855-8a02-4276-b862-16e95999b033">
+
+<img width="784" alt="Screenshot 2024-11-07 at 16 12 14" src="https://github.com/user-attachments/assets/a484ac3f-4c7c-4d2b-8ded-b92a3aec30a9">
+
+Why a Pitch Stepper? Because there are also shortcuts for opening the External Editor of the Pitch Stepper.
+
+<img width="337" alt="Screenshot 2024-11-07 at 16 12 46" src="https://github.com/user-attachments/assets/e5e0f0c5-a909-40cc-9ccf-e686cc69d5be">
+
+Go wild with the drawings!
+<img width="1512" alt="Screenshot 2024-11-07 at 16 13 04" src="https://github.com/user-attachments/assets/58183986-1d79-44e2-8a96-75f4643fc1f4">
+
+The other shortcuts do these:
+- Octave up & Octave down
+
+<img width="1286" alt="Screenshot 2024-11-07 at 16 13 39" src="https://github.com/user-attachments/assets/93a985e3-6b3f-4f43-9a0e-750e5094e813">
+
+- Octave up twice & Octave down twice (changing the minimum & maximum pitch to 24st)
+
+<img width="1291" alt="Screenshot 2024-11-07 at 16 13 51" src="https://github.com/user-attachments/assets/c2ea0ee8-4ff6-4a78-b548-5a6204d8e6f6">
+
+- Randomize PitchSteps
+
+<img width="1285" alt="Screenshot 2024-11-07 at 16 14 17" src="https://github.com/user-attachments/assets/eccf302c-fa31-4081-a30d-672094a6f27b">
+
+The `*Instr. Macros` device which is also added to the track you are on, allows you to directly start automating the Macro parameters. 
+
+Meaning, you would load a sample using Paketti, input a few notes to the pattern editor, and immediately be able to start drawing automation for any of the 8 macro controls. So you could for instance put in a drumloop, and start drawing a cutoff automation curve directly to modulate the cutoff parameter.
+
+The 8 Macros are also available as a Midi Mapping like this:
+
+<img width="335" alt="Screenshot 2024-11-07 at 15 49 00" src="https://github.com/user-attachments/assets/13f28014-3411-4de0-8b32-db85b52c9a55">
+
+The reason for adding these, is, so, that when you are on any instrument with the Paketti Default XRNI Instrument (or any instrument with any of the 8 Macros set up), the same 8 Midi knobs on your controller will control those 8 settings. So you can rest your hands on the knobs, select a different instrument, and keep crafting. These also, of course, apply to the DrumKit Loader - which we'll cover next.
+
+The DrumKit loader loads a max of 120 samples into the instrument. Select more? Only loads 120 samples. The drums are mapped automatically from C0 to B9.
+
+### Saving Samples
+
+There are Midi Mappings, Keyboard Shortcuts and Menu Entries for `Save Selected Sample .WAV` & `Save Selected Sample .FLAC`. There's also `Save Selected Sample Range .WAV` & `Save Selected Sample Range .FLAC`. The Sample Range saving is from Fast Tracker 2.
+
 <img width="341" alt="Screenshot 2024-11-07 at 15 42 18" src="https://github.com/user-attachments/assets/f8090146-e741-4232-b357-8b128608fb71">
+
+There's also a method for saving all Samples to a Backup Folder - which are user configurable - meaning, you can have 3 different Backup Folders, and thus three different shortcuts for saving either Selected Sample, or all Samples to the Backup Folder.
+
+<img width="339" alt="Screenshot 2024-11-07 at 15 52 28" src="https://github.com/user-attachments/assets/d80aaac7-47d4-47b4-87f2-f018083cd949">
+
+The dialog where you get to select the Backup Folders is the "Launch App Selection Dialog", pictured below:
+
+<img width="902" alt="Screenshot 2024-11-07 at 15 54 28" src="https://github.com/user-attachments/assets/d5a33681-c2cd-402d-9776-c5a34d381f8a">
+
+### Sending Samples to other apps
+
+If you carefully look at the following dialog:
+
+<img width="902" alt="Screenshot 2024-11-07 at 15 54 28" src="https://github.com/user-attachments/assets/d5a33681-c2cd-402d-9776-c5a34d381f8a">
+
+You'll see there is also a way of sending a selected sample to a specific app! This means, you can set your preferred programs, and Renoise / Paketti will save the selected sample to a temporary folder, and start the app and load the sample. 
+
+***Note well, Bitwig developers: Your app does not support sending files to it via `bitwig.app file.wav`. Please fix.***
 
 ### Loading Devices and Plugins
 
-another is the introduction of shortcuts and midimappings for loading your preferred native devices (both regular, and hidden/legacy effects), your favorite VST,VST3,AudioUnit/LADSPA/DSSI devices. this means that you go to the Tools -> Paketti -> Plugins/Devices -> Device Loader dialog, and check your favorites, click on "add as shortcut/midimapping" and from here onwards, you can map the newly created shortcuts for loading your devices onto the track you are on. if you're in sample fx chain mode, those devices will be loaded instead of to track dsp. it means you can for instance (in my usecase) press shift-q e r t z a v  and out come 7 devices to the selected track.  same with midibuttons, after selecting your favorites, you can use the midi mappings to set up midibuttons for loading your desired device onto your selected track.
+Another step in the abandoning / circumventing of Native Renoise loading methods, is the doing away with the usage of the Track DSP Device Loading.
+
+Instead, Paketti introduces Keyboard Shortcuts, MidiMappings for loading your preferred VST,VST3,AU,LADSPA,DSSI,Native devices to both Track DSP Chains and Sample FX Chains. 
+
+There are also Menu Entries for loading your Native devices (including the Hidden / Legacy effects), if you're mouse inclined.
+
+By going to **Tools -> Paketti.. -> Plugins/Devices.. -> Load Devices Dialog...** and ticking your favorites, clicking on the `Add Device(s) as Shortcut(s) & MidiMappings` button will result in, from now on, the selected devices being available in Keybinds and MidiMappings. Set them up, and away you go!
+
+<img width="932" alt="Screenshot 2024-11-07 at 15 58 27" src="https://github.com/user-attachments/assets/3972b25f-45f0-4411-b76c-9b0bdddd439f">
+
+This means that you can, for instance, (in my usecase) press `shift-q e r t z a v`  and out come 7 devices to the selected track. Same with midibuttons, after selecting your favorites, you can use the midi mappings to set up midi controls for loading your desired device onto your selected track. Trust me, it's fast, fluid and just feels natural. Set them like you want to, and throw in your devices.
+
+There are some additional details, such as: the external Devices are loaded in minimized mode, so they don't take up extra space. The Renoise Native devices are not loaded in minimized mode, because the parameters are displayed there.
+
+And the more important detail: the External Editor is automatically opened!
+
+The same thing exists for loading Plugins, go to **Tools -> Paketti.. -> Plugins/Devices.. -> Load Plugins Dialog...**
+
+<img width="382" alt="Screenshot 2024-11-07 at 16 01 24" src="https://github.com/user-attachments/assets/566fb9e6-3778-47b4-87bb-2cd7de0a5bd4">
+
+Same logic. Pick the ones you want, add them to the Paketti Preferences - they'll always be there.
+
+The extra logic with Plugins, is, that it wouldn't make much sense if they overwrote the current instrument - so, a new instrument slot is added, every time you load a plugin. And the External Editor is made visible. So you can just start tweaking away.
 
 ### Wipe & Slice
 
-there's a mathematical slicer, which takes your drumloop and, depending on which shortcut you pick, slices it in half (two slices), or 4 to max 128 slices. meaning if your loop already loops well, you can just split it into 16-32-64 slices and start drumming away at the loop.
+Those who like BeatSlicing, there's a mathematical slicer - which takes your loop, and, depending on which shortcut you pick, slices it in half (two slices), or 4 slices.. to max 128 slices. meaning if your loop already loops well, you can just split it into 16-32-64 slices and start drumming away at the loop.
 
-for slices, there's also a method for adjusting the slices left & right by nudging the start / endpoint, much like MPC does it. it really is to be seen to be believed. it means you no longer need to keep zooming in and zooming out to adjust the slices, you can just view the slice itself, and adjust where it starts and stops.
+<img width="340" alt="Screenshot 2024-11-07 at 16 04 29" src="https://github.com/user-attachments/assets/ea1d4a3a-c7d1-48ea-9917-740ee2605e0c">
 
-there's also, to go with this logic, "Isolate Slices to New Instruments", which creates brand new instruments into your song, and if you say, were on slice 6 (let's say a snare), when you run the isolate slices, you'll still be on the snare, but snare as a newly created instrument.
+There are additional configuration steps in the Paketti Preferences dialog:
+
+<img width="1222" alt="Screenshot 2024-11-07 at 16 04 51" src="https://github.com/user-attachments/assets/3efad420-69fb-45ee-bd9a-bcfabb322320">
+
+The BeatSync Mode can be set, also, and if, for instance, you set a 256 BeatSync Line setting for the sample, and chop it in 16 pieces, then each Slice will play at 16 BeatSync - maintaining the pitch and speed that you would expect. All this is taken care of behing the scenes.
+
+### MPC-like Slice start + end alteration with Shortcuts / MidiMappings
+
+But Slices aren't always precise. So there are methods for adjusting the Start and Endpoint of the Slices, much like MPC does it. This means that you don't need to keep viewing the original sample, zooming in, adjusting the Start/Endpoints, zooming out, moving a bit, and then doing the same thing like an automaton. Just look at the Slice, and change where it starts and ends.
+
+Here are the shortcuts - and examples of how it could be done.
+
+<img width="1119" alt="Screenshot 2024-11-07 at 16 07 46" src="https://github.com/user-attachments/assets/a05989e7-9cfb-4c86-8ad7-41996c7ee0e6">
+
+And here's a little .gif of what it looks like:
+
+![move slice](https://github.com/user-attachments/assets/c44aed7a-6734-4b72-b85c-33749d3542e8)
+
+### Isolate Slices
+
+While we're on the Slice topic, there's also `Isolate Slices to New Instruments`, which takes all the Slices in your Instrument, and creates new Instruments below it. And if you were on, say the Slice that was a Snare - isolate slices, you'll still be on the Snare.
+Of course, the Paketti Default .XRNI instrument is introduced for each slice.
 
 ### Freeze & Flatten a.k.a. Clean Render Selected Track or Group.
 
