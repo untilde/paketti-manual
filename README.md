@@ -42,6 +42,8 @@ Paketti has been called a firmware update or a framework for Renoise. It introdu
 
 "I have no doubt that you are the most important person in the various Renoise Tools developers."
 
+"You RULE. Thanks for being so responsive ... and for the massive amount of work into creating this. Really is like Renoise+++"
+
 ## Where to say things about Paketti
 
 - Join the [Paketti Discord](https://discord.gg/Qex7k5j4wG)
