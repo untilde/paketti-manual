@@ -48,7 +48,7 @@ Paketti has been called a firmware update or a framework for Renoise. It introdu
 
 - Join the [Paketti Discord](https://discord.gg/Qex7k5j4wG)
 - Leave issues here on [GitHub](https://github.com/esaruoho/org.lackluster.Paketti.xrnx/issues)
-- Hit the mostly dead [Renoise Forum Paketti thread](https://forum.renoise.com/t/new-tool-3-1-paketti-now-compatible-with-renoise-v3-v3-4-4/)
+- Hit the mostly dead [Renoise Forum Paketti thread](https://forum.renoise.com/t/new-tool-3-1-paketti-now-compatible-with-renoise-v3-v3-4-4/35848)
 
 # How to Support
 
