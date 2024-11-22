@@ -10,7 +10,7 @@
  4. [Where to say things about Paketti](#where-to-say-things-about-paketti)
  5. [How to Support](#how-to-support)
  6. [Brickwall](#brickwall)
- 7. [Todo (unfinished](#todo-unfinished)
+ 7. [Rewrite Soon](#rewrite-soon)
  8. [Roadmap](#roadmap)
  9. [Old About](#old-about)
  10. [Credits](#credits)
@@ -218,7 +218,7 @@ And here's a little .gif of what it looks like:
 While we're on the Slice topic, there's also `Isolate Slices to New Instruments`, which takes all the Slices in your Instrument, and creates new Instruments below it. And if you were on, say the Slice that was a Snare - isolate slices, you'll still be on the Snare.
 Of course, the Paketti Default .XRNI instrument is introduced for each slice.
 
-# TODO (Unfinished)
+# Rewrite Soon
 
 ### Freeze & Flatten a.k.a. Clean Render Selected Track or Group.
 
