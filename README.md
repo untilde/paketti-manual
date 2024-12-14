@@ -290,6 +290,17 @@ there's an inverter device which inverts the audio - using the Gainer device. Th
 The send and multiband send shortcuts load the native devices "correctly" aka "Keep Source and volume at zero" as opposed to "mute source and volume at max".. 
 <img width="1036" alt="Screenshot 2024-10-28 at 17 49 45" src="https://github.com/user-attachments/assets/7e6f6ac2-c007-47a0-94c8-ef50820f95e7">
 
+## Automation
+I have written midimappings for directly inputting automation points to the currently selected automation parameter 
+And also a shortcut for opening a dialog for writing automation points to exactly which pattern row u r on
+And also randomize selected automation parameter
+And randomize all automation parameters of selected device
+And multipattern automation curve drawing
+And midimapping for select start and end of automation and also mapping for changing selection curve up down exp Linear etc
+And also flood fill of selection in automation parameter to end of pattern
+[21.56]esaruoho: And a shortcut for cycling through all automation parameters that have been defined by user (written to)
+
+
 ### 0G01 Loader
 
 This uses the `G01` (Glide to note) trick to allow for playing really long samples, even if the pattern would be shorter than the length of the sample. The sample will play until the end, and then replay again at the start of the next replay. This means you can have a 4 second drumloop but play 20 minutes of pads on top of it.
