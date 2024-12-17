@@ -59,19 +59,27 @@ You can
 - Buy Paketti via [Gumroad](https://lackluster.gumroad.com/l/paketti) for a one time purchase.
 
 # Roadmap
-I'm slowly processing through a bunch of Renoise Forums, such as "Ideas and Suggestions", "Beginners Questions" and filtering through them one thread at a time to see new ideas, deciding "This can be scripted" -> and add it to the todo-list.
 
-The Ideas and Suggestions forum dump I created, has all the thread posts from 2002 onwards to 2024 April, all 7361 of them and as of October 30th I had only 4400 of them left to go through. This is only the beginning, because once I have made it through that list, it's time to check out the 5000+ Beginners questions, and the other couple of thousand threads from "Renoise Tools Discussion" & "Renoise Tools" for abandoned tools. 
+As of 17th of December, I've processed and filtered through all the 7361 `Ideas and Suggestions` threads (2002 to May 2024), and have picked 1736 of them for keeping. This chunk of PDFs can be divided into four different segments.
 
-After I've filtered up a list of things I can do, it's time to turn them into tickets. As of today, I have 543 items picked from "Ideas and Suggestions" - some of which I have already scripted.
+1. Already in Paketti
+2. Can be added to Paketti
+3. Complex but could be done, maybe
+4. Blocked by API - will keep these and process through them after there's new API functions. Kind of like the [blockeyByAPI label](https://github.com/esaruoho/paketti/issues?q=is%3Aissue+label%3AblockedByAPI) that already exists for the Paketti issues
+
+I have also downloaded all the threads from the same time-period for `Beginners Questions`, `Tool Announcements` & `Tool Discussions`. 
+
+The objective here is to find abandoned tools, tool ideas, and questions from beginners, which might actually turn out to be clever feature requests in disguise - a lot of people ask for things that make sense to them, at the start of moving to a new music making app, only to be told "doesn't exist here". The Beginners Questions was around 5000+ posts.
+
+After I've filtered up a list of things I can do, it's time to turn them into tickets. 
 
 I'm also running through contacting people and asking for more details, trying to get more ideas of their issues with Renoise or trackers.. And one thing leads to another.
 
 If there's anything in the manual here, that feels obscure or requires more explaining, please send me a message or leave an issue, and I'll try to flesh it out and write it more clearly.
 
-So to repeat, I'm adding features people have requested over the past 22 years, I'm adding features from other trackers, and also tweaking abandoned tools and making them work again, but the Paketti way, and introducing them.
+So to repeat, I'm adding features people have requested over the past 22 years, I'm adding features from other trackers, and also tweaking abandoned tools and making them work again, but the Paketti way, and adding them.
 
-Hence why it's useful if I can get as much support as I can to keep going at this, it feels like this'll take 3-5 years to cover everything. 
+Hence why it's useful if I can get as much support as I can to keep going at this, it feels like this'll take 5-7 years to cover everything. 
 
 # Brickwall
 
@@ -115,11 +123,11 @@ Go wild with the drawings!
 <img width="1512" alt="Screenshot 2024-11-07 at 16 13 04" src="https://github.com/user-attachments/assets/58183986-1d79-44e2-8a96-75f4643fc1f4">
 
 The other shortcuts do these:
-- Octave up & Octave down
+- Octave Up & Octave Down
 
 <img width="1286" alt="Screenshot 2024-11-07 at 16 13 39" src="https://github.com/user-attachments/assets/93a985e3-6b3f-4f43-9a0e-750e5094e813">
 
-- Octave up twice & Octave down twice (changing the minimum & maximum pitch to 24st)
+- Octave Up twice & Octave Down twice (changing the minimum & maximum pitch to 24st)
 
 <img width="1291" alt="Screenshot 2024-11-07 at 16 13 51" src="https://github.com/user-attachments/assets/c2ea0ee8-4ff6-4a78-b548-5a6204d8e6f6">
 
@@ -451,8 +459,7 @@ It is far too complex to sum up in just a few words. However, some notable chang
 
 The original Paketti Manual projects was started by @untilde, thanks a lot for that. He donated it to me, @esaruoho - and I started tweaking it a bit.
 
-Paketti is a project by Esa Ruoho, a.k.a Lackluster (@esaruoho). More information [here](https://github.com/esaruoho/org.lackluster.Paketti.xrnx/blob/master/README.md#thanks).
-This documentation was originally started by @un
+Paketti is a project by Esa Ruoho, a.k.a Lackluster (@esaruoho). More information [here](https://github.com/esaruoho/paketti/blob/master/README.md#thanks).
 
 
 # Index
@@ -465,17 +472,17 @@ For better comprehension, this manual is divided into sections. Each chapter cor
 
 Settings for Paketti can be found under `Main Menu -> Tools -> Paketti..`. This menu also includes some shortcuts for useful features:
 
-![image](https://github.com/untilde/paketti-unofficial-manual/assets/20494933/115269c2-fc78-4947-bf17-3711535666de)
+![image](https://github.com/esaruoho/paketti/assets/20494933/115269c2-fc78-4947-bf17-3711535666de)
 
 | Item | Description | Index |
 | --- | --- | --- |
-| `Preferences` | Shows Paketti Preferences window. | [1.1](https://github.com/untilde/paketti-unofficial-manual/blob/main/Documentation/1%20-%20Tools%20menu.md#11---preferences) |
-| `Instruments` | Contains sample and drumkit loaders, plus shortcuts for beatsync and pitchbend. | [1.2](https://github.com/untilde/paketti-unofficial-manual/blob/main/Documentation/1%20-%20Tools%20menu.md#12---instruments) |
-| `Pattern Editor` | Random BPM, FX Cheat Sheet, Collapse/Uncollapse All, Double/Halve Pattern | [1.3](https://github.com/untilde/paketti-unofficial-manual/blob/main/Documentation/1%20-%20Tools%20menu.md#13---pattern-editor) |
-| `Plugin/Devices` | Multiple Plugin/Device functionalities. | [1.4](https://github.com/untilde/paketti-unofficial-manual/blob/main/Documentation/1%20-%20Tools%20menu.md#14---pluginsdevices) |
+| `Preferences` | Shows Paketti Preferences window. | [1.1](https://github.com/esaruoho/paketti-manual/blob/main/Documentation/1%20-%20Tools%20menu.md#11---preferences) |
+| `Instruments` | Contains sample and drumkit loaders, plus shortcuts for beatsync and pitchbend. | [1.2](https://github.com/esaruoho/paketti-manual/blob/main/Documentation/1%20-%20Tools%20menu.md#12---instruments) |
+| `Pattern Editor` | Random BPM, FX Cheat Sheet, Collapse/Uncollapse All, Double/Halve Pattern | [1.3](https://github.com/esaruoho/paketti-manual/blob/main/Documentation/1%20-%20Tools%20menu.md#13---pattern-editor) |
+| `Plugin/Devices` | Multiple Plugin/Device functionalities. | [1.4](https://github.com/esaruoho/paketti-manual/blob/main/Documentation/1%20-%20Tools%20menu.md#14---pluginsdevices) |
 | `Show New Song Dialog` | Allows you to start a new song with the option to keep the same Patterns/Instruments/etc | - |
 | `∿ Squigly Sinewave to Clipboard` | Copy this symbol to easily find Paketti in the Keys window (under Renoise Preferences). | - |
-| `Paketti MIDI Populator` | Automatically fills current Project with Tracks, Instruments, Sends and Macros for External MIDI Controllers. | [1.5](https://github.com/untilde/paketti-unofficial-manual/blob/main/Documentation/1%20-%20Tools%20menu.md#15---midi-populator) |
+| `Paketti MIDI Populator` | Automatically fills current Project with Tracks, Instruments, Sends and Macros for External MIDI Controllers. | [1.5](https://github.com/esaruoho/paketti-manual/blob/main/Documentation/1%20-%20Tools%20menu.md#15---midi-populator) |
 | `Clean Render Selected Track or Group` | Automatically bypasses FX in Track/Group before resampling. | - |
 | `Catch Octave` | (NEEDS EXPLAINING) | - |
 | `Clone Current Sequence` | Self-explanatory. | - |
@@ -483,24 +490,24 @@ Settings for Paketti can be found under `Main Menu -> Tools -> Paketti..`. This 
 
 ### 1.1 - Preferences
 
-![image](https://github.com/untilde/paketti-unofficial-manual/assets/20494933/d7a9cd74-6921-44c2-960a-a87f4fda788c)
+![image](https://github.com/esaruoho/paketti-manual/assets/20494933/d7a9cd74-6921-44c2-960a-a87f4fda788c)
 
 | Item | Description | Notes |
 | --- | --- | --- |
 | `Upper Frame` | Enables/Disables upper frame control when using Impulse Tracker key commands. | See [insert IT topic - to be written]. |
-| `0G01 Loader` | Automatically enables the 0G01 hack for samples inserted using the Paketti loaders. | See [2 - Instrument Box](https://github.com/untilde/paketti-unofficial-manual/blob/main/Documentation/2%20-%20Instrument%20Box.md) to better understand the 0G01 hack. |
+| `0G01 Loader` | Automatically enables the 0G01 hack for samples inserted using the Paketti loaders. | See [2 - Instrument Box](https://github.com/esaruoho/paketti-manual/blob/main/Documentation/2%20-%20Instrument%20Box.md) to better understand the 0G01 hack. |
 | `Random BPM` | (NEEDS EDITING) | - |
 | `Pale Green Theme` | Loads Paketti color theme for Renoise. | - |
 | `Gifts: Plaid Zap Load` | Insert a special XRNI instrument made from Plaid samples. | See [forum post](https://forum.renoise.com/t/plaidzap-xrni-gift/32521). |
 | `Create New Instrument & Loop from Selection` | Quite Self-Explanatory. Works on the Sample Editor (right-click). | - |
-| `Paketti Loader Settings` | Changes default settings for Paketti Drumkit/Multisample loaders. | See [1.2](https://github.com/untilde/paketti-unofficial-manual/blob/main/Documentation/1%20-%20Tools%20menu.md#12---instruments) for more details. |
-| `Wipe & Slices Settings` | Determines default settings for slices generated via Paketti (under the Sampler window and Instrument Box): Slice Loop Mode, Beatsync, Autoseek, etc. | See [2 - Instrument Box](https://github.com/untilde/paketti-unofficial-manual/blob/main/Documentation/2%20-%20Instrument%20Box.md).
+| `Paketti Loader Settings` | Changes default settings for Paketti Drumkit/Multisample loaders. | See [1.2](https://github.com/esaruoho/paketti-manual/blob/main/Documentation/1%20-%20Tools%20menu.md#12---instruments) for more details. |
+| `Wipe & Slices Settings` | Determines default settings for slices generated via Paketti (under the Sampler window and Instrument Box): Slice Loop Mode, Beatsync, Autoseek, etc. | See [2 - Instrument Box](https://github.com/esaruoho/paketti-manual/blob/main/Documentation/2%20-%20Instrument%20Box.md).
 | `Render Settings` | Determines sample rate and bit depth for Paketti resampling procedures. | - |
 | `Edit Mode Colouring` | Highlights the track you're currently editing, all tracks or none. | - |
 
 ### 1.2 - Instruments
 
-![image](https://github.com/untilde/paketti-unofficial-manual/assets/20494933/f3fa1092-6f7a-43ad-a6a8-7880e55278ba)
+![image](https://github.com/esaruoho/paketti-manual/assets/20494933/f3fa1092-6f7a-43ad-a6a8-7880e55278ba)
 
 | Item | Description | Notes |
 | --- | --- | --- |
@@ -512,13 +519,13 @@ Settings for Paketti can be found under `Main Menu -> Tools -> Paketti..`. This 
 
 ### 1.3 - Pattern Editor
 
-![image](https://github.com/untilde/paketti-unofficial-manual/assets/20494933/ed27b39e-28c0-40ae-b9be-d86d66adb9c8)
+![image](https://github.com/esaruoho/paketti-manual/assets/20494933/ed27b39e-28c0-40ae-b9be-d86d66adb9c8)
 
 | Item | Description | Notes |
 | --- | --- | --- |
 | `Random BPM` | Picks a random BPM value for the project. | |
 | `Write Current BPM&LPB to Master column` | This writes both the current BPM and the LPB to the Master Track. Useful when you change LPB / BPM across the song patterns. | |
-| `Effect Column CheatSheet Dialog` | A pop-up window containg all pattern commands available in Renoise. | See [1.3.1](https://github.com/untilde/paketti-unofficial-manual/blob/main/Documentation/1%20-%20Tools%20menu.md#131---effect-column-cheatsheet-dialog). |
+| `Effect Column CheatSheet Dialog` | A pop-up window containg all pattern commands available in Renoise. | See [1.3.1](https://github.com/esaruoho/paketti-manual/blob/main/Documentation/1%20-%20Tools%20menu.md#131---effect-column-cheatsheet-dialog). |
 | `Collapse/Uncollapse All Tracks` | Collapses (minimizes) or Uncollapses (maximizes) all the Tracks, Groups, Master and Sends. | |
 | `Pattern Doubler` | Doubles the current pattern size while also duplicating its contents accordingly (notes, volume, panning, delay, samplefx columns and effect columns, and automation. | |
 | `Pattern Halver` | Sets the pattern to 1/2 current size. Works *differently* from the native keybind `CTRL+F8`, as it *does not adapt pattern content* to fit the new length. Simply put: pattern length is changed to half, but notes/commands remain in place. | |
@@ -531,26 +538,26 @@ Please note: the Effect Column CheatSheet also features sliders for the Volume, 
 
 ### 1.4 - Plugins/Devices
 
-![image](https://github.com/untilde/paketti-unofficial-manual/assets/20494933/565e275e-c4dd-4c99-a1ee-529ce2a12181)
+![image](https://github.com/esaruoho/paketti-manual/assets/20494933/565e275e-c4dd-4c99-a1ee-529ce2a12181)
 
 | Item | Description | Notes |
 | --- | --- | --- |
 | `Debug` | Different plugin related utilities for debugging. Can be ignored by the average user. | |
 | `Switch Plugin AutoSuspend OFF` | Quickly Enables/Disables the AutoSuspend function in Renoise. From the [user manual](https://tutorials.renoise.com/wiki/Plugin): "Auto Suspend: When enabled, Renoise will completely shut off the plugin when it is no longer producing sound. This is mainly done to reduce CPU usage." | |
-| `Expose/Hide Selected Device Parameters in Mixer` | Display plugin parameters in the mixer as sliders. It's the default behavior for some native devices, such as the Compressor and Mixer EQ. | See [1.4.1](https://github.com/untilde/paketti-unofficial-manual/blob/main/Documentation/1%20-%20Tools%20menu.md#141---exposehide-selected-device-parameters-in-mixer). |
-| `Expose/Hide Selected Track ALL Device Parameters` | Same as above, but applies to all devices in the selected track. | See [1.4.1](https://github.com/untilde/paketti-unofficial-manual/blob/main/Documentation/1%20-%20Tools%20menu.md#141---exposehide-selected-device-parameters-in-mixer). |
+| `Expose/Hide Selected Device Parameters in Mixer` | Display plugin parameters in the mixer as sliders. It's the default behavior for some native devices, such as the Compressor and Mixer EQ. | See [1.4.1](https://github.com/esaruoho/paketti-manual/blob/main/Documentation/1%20-%20Tools%20menu.md#141---exposehide-selected-device-parameters-in-mixer). |
+| `Expose/Hide Selected Track ALL Device Parameters` | Same as above, but applies to all devices in the selected track. | See [1.4.1](https://github.com/esaruoho/paketti-manual/blob/main/Documentation/1%20-%20Tools%20menu.md#141---exposehide-selected-device-parameters-in-mixer). |
 | `Hide Track DSP Devices for All Tracks` | If External Editors for any devices on Track DSP are visible, this will hide their External Editors. | | 
 | `Bypass/Enable All Devices on Track` | Self-explanatory. Useful to check pre/post processing. In other words, how the FX chain is affecting signals in a particular track. | |
-| `Load AU/VST/VST3 Plugins Dialog` | A pop-up window to quickly load instrument plugins or add them as keyboard shortcuts. These plugin shortcuts can be found under the Keys tab in Renoise Preferences. | See [1.4.2](https://github.com/untilde/paketti-unofficial-manual/blob/main/Documentation/1%20-%20Tools%20menu.md#142---load-auvstvst3-plugins-dialog). | 
+| `Load AU/VST/VST3 Plugins Dialog` | A pop-up window to quickly load instrument plugins or add them as keyboard shortcuts. These plugin shortcuts can be found under the Keys tab in Renoise Preferences. | See [1.4.2](https://github.com/esaruoho/paketti-manual/blob/main/Documentation/1%20-%20Tools%20menu.md#142---load-auvstvst3-plugins-dialog). | 
 | `Open Visible Pages to Fit Plugin Parameter Count` | Fully expands a plugin/device window so all the parameter sliders are visible. | |
 
 ### 1.4.1 - Expose/Hide Selected Device Parameters in Mixer
 
-![image](https://github.com/untilde/paketti-unofficial-manual/assets/20494933/9f779834-0454-41c3-a39f-b6f81d425e61)
+![image](https://github.com/esaruoho/paketti-manual/assets/20494933/9f779834-0454-41c3-a39f-b6f81d425e61)
 
 ### 1.4.2 - Load AU/VST/VST3 Plugins Dialog
 
-![image](https://github.com/untilde/paketti-unofficial-manual/assets/20494933/37facf15-9d5b-46c1-b6dd-d679520b4919)
+![image](https://github.com/esaruoho/paketti-manual/assets/20494933/37facf15-9d5b-46c1-b6dd-d679520b4919)
 
 ### 1.5 - MIDI Populator
 
@@ -564,7 +571,7 @@ For users who do not have external hardware sequencers, a good use case for the 
 2. Manually pick a plugin for each MIDI channel or use the `Randomize VST3 Plugin Selection` to randomly pick instruments.
 3. Configure the remaining options, which range from number of note columns to automatic Send devices.
 
-![image](https://github.com/untilde/paketti-unofficial-manual/assets/20494933/b840bc3b-7f6a-4a83-8e45-89e08cba3b76)
+![image](https://github.com/esaruoho/paketti-manual/assets/20494933/b840bc3b-7f6a-4a83-8e45-89e08cba3b76)
 
 Paketti will then generate a new track for each plugin, with automatic MIDI In/Out configuration and Send population (if enabled), and also `#Line-In Device` placement for all tracks, in case the objective is to use audio inputs..
 
@@ -572,7 +579,7 @@ Paketti will then generate a new track for each plugin, with automatic MIDI In/O
 
 By right-clicking the Instrument Box (by default, located on the right corner of the screen) another set of Paketti features is available:
 
-![image](https://github.com/untilde/paketti-unofficial-manual/assets/20494933/d99f524c-1924-455f-ab63-bdf59bde3d07)
+![image](https://github.com/esaruoho/paketti-manual/assets/20494933/d99f524c-1924-455f-ab63-bdf59bde3d07)
 
 | Item | Description | Subtopic |
 | --- | --- | --- |
@@ -597,7 +604,7 @@ UNDER CONSTRUCTION
 
 ### 2.2 - Launch App
 
-![image](https://github.com/untilde/paketti-unofficial-manual/assets/20494933/5090fc14-a94a-43c9-9178-47ed4f08ae48)
+![image](https://github.com/esaruoho/paketti-manual/assets/20494933/5090fc14-a94a-43c9-9178-47ed4f08ae48)
 
 ## Sampler
 
