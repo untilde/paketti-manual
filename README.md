@@ -472,8 +472,6 @@ For better comprehension, this manual is divided into sections. Each chapter cor
 
 Settings for Paketti can be found under `Main Menu -> Tools -> Paketti..`. This menu also includes some shortcuts for useful features:
 
-![image](https://github.com/esaruoho/paketti/assets/20494933/115269c2-fc78-4947-bf17-3711535666de)
-
 | Item | Description | Index |
 | --- | --- | --- |
 | `Preferences` | Shows Paketti Preferences window. | [1.1](https://github.com/esaruoho/paketti-manual/blob/main/Documentation/1%20-%20Tools%20menu.md#11---preferences) |
@@ -490,8 +488,6 @@ Settings for Paketti can be found under `Main Menu -> Tools -> Paketti..`. This 
 
 ### 1.1 - Preferences
 
-![image](https://github.com/esaruoho/paketti-manual/assets/20494933/d7a9cd74-6921-44c2-960a-a87f4fda788c)
-
 | Item | Description | Notes |
 | --- | --- | --- |
 | `Upper Frame` | Enables/Disables upper frame control when using Impulse Tracker key commands. | See [insert IT topic - to be written]. |
@@ -507,8 +503,6 @@ Settings for Paketti can be found under `Main Menu -> Tools -> Paketti..`. This 
 
 ### 1.2 - Instruments
 
-![image](https://github.com/esaruoho/paketti-manual/assets/20494933/f3fa1092-6f7a-43ad-a6a8-7880e55278ba)
-
 | Item | Description | Notes |
 | --- | --- | --- |
 | `PitchBend Drumkit Sample Loader` | Automatically generates a drumkit from selected samples. Includes some macros. Samples are adjusted according the your Paketti Loader Settings (see 1.1 above). | |
@@ -518,8 +512,6 @@ Settings for Paketti can be found under `Main Menu -> Tools -> Paketti..`. This 
 | `Xst PitchBend Instrument Init` | Inserts an empty instrument containing several useful macros: PitchBend, Cutoff, Resonance, Cutoff LFOAmp, Cutoff LFOFreq, Overdrive, Parallel Compression and PitchBend Glide Inertia. | |
 
 ### 1.3 - Pattern Editor
-
-![image](https://github.com/esaruoho/paketti-manual/assets/20494933/ed27b39e-28c0-40ae-b9be-d86d66adb9c8)
 
 | Item | Description | Notes |
 | --- | --- | --- |
@@ -538,8 +530,6 @@ Please note: the Effect Column CheatSheet also features sliders for the Volume, 
 
 ### 1.4 - Plugins/Devices
 
-![image](https://github.com/esaruoho/paketti-manual/assets/20494933/565e275e-c4dd-4c99-a1ee-529ce2a12181)
-
 | Item | Description | Notes |
 | --- | --- | --- |
 | `Debug` | Different plugin related utilities for debugging. Can be ignored by the average user. | |
@@ -553,11 +543,7 @@ Please note: the Effect Column CheatSheet also features sliders for the Volume, 
 
 ### 1.4.1 - Expose/Hide Selected Device Parameters in Mixer
 
-![image](https://github.com/esaruoho/paketti-manual/assets/20494933/9f779834-0454-41c3-a39f-b6f81d425e61)
-
 ### 1.4.2 - Load AU/VST/VST3 Plugins Dialog
-
-![image](https://github.com/esaruoho/paketti-manual/assets/20494933/37facf15-9d5b-46c1-b6dd-d679520b4919)
 
 ### 1.5 - MIDI Populator
 
@@ -571,15 +557,11 @@ For users who do not have external hardware sequencers, a good use case for the 
 2. Manually pick a plugin for each MIDI channel or use the `Randomize VST3 Plugin Selection` to randomly pick instruments.
 3. Configure the remaining options, which range from number of note columns to automatic Send devices.
 
-![image](https://github.com/esaruoho/paketti-manual/assets/20494933/b840bc3b-7f6a-4a83-8e45-89e08cba3b76)
-
 Paketti will then generate a new track for each plugin, with automatic MIDI In/Out configuration and Send population (if enabled), and also `#Line-In Device` placement for all tracks, in case the objective is to use audio inputs..
 
 ## Instrument Box
 
 By right-clicking the Instrument Box (by default, located on the right corner of the screen) another set of Paketti features is available:
-
-![image](https://github.com/esaruoho/paketti-manual/assets/20494933/d99f524c-1924-455f-ab63-bdf59bde3d07)
 
 | Item | Description | Subtopic |
 | --- | --- | --- |
@@ -597,27 +579,3 @@ By right-clicking the Instrument Box (by default, located on the right corner of
 | `Clean Render Selected Track or Group` | Works like the "Freeze and Flatten" option in some other DAWs. It renders the current (source) track into a new instrument and automatically places a C-4 on the first line of a new track. After that, the source track is automatically muted and collapsed. Useful to share your .xrns without fearing plugin dependencies, to free up CPU or maybe just to support your resampling needs. | |
 | `Record to Current Track` | | |
 | `Start Sampling (Record)` | | |
-
-### 2.1 - The 0G01 Hack
-
-UNDER CONSTRUCTION
-
-### 2.2 - Launch App
-
-![image](https://github.com/esaruoho/paketti-manual/assets/20494933/5090fc14-a94a-43c9-9178-47ed4f08ae48)
-
-## Sampler
-
-| Item | Description | Subtopic |
-| --- | --- | --- |
-
-
-## Pattern Editor
-
-## Automation
-
-## Pattern Matrix
-
-## Mixer
-
-## Phrase Editor
