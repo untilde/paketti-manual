@@ -60,7 +60,7 @@ You can
 
 # Roadmap
 
-As of 17th of December, I've processed and filtered through all the 7361 `Ideas and Suggestions` threads (2002 to May 2024), and have picked 1736 of them for keeping. This chunk of PDFs can be divided into four different segments.
+As of end of 2024, I've processed and filtered through all the 7361 `Ideas and Suggestions` threads (2002 to May 2024), and have picked 1736 of them for keeping. This chunk of PDFs can be divided into four different segments.
 
 1. Already in Paketti
 2. Can be added to Paketti
@@ -80,6 +80,37 @@ If there's anything in the manual here, that feels obscure or requires more expl
 So to repeat, I'm adding features people have requested over the past 22 years, I'm adding features from other trackers, and also tweaking abandoned tools and making them work again, but the Paketti way, and adding them.
 
 Hence why it's useful if I can get as much support as I can to keep going at this, it feels like this'll take 5-7 years to cover everything. 
+
+# Manual Organization TODO
+
+## Automation
+
+## MIDI
+
+## Pattern Editor
+
+## Mixer
+
+## Pattern Matrix
+
+## Pattern Sequencer
+
+## Disk Browser
+
+## Instrument Box
+
+## Sample Editor
+
+## Sample Mappings
+
+## Sample Navigator
+
+## Dialogs
+
+## Global View Presets
+
+## Sample Recorder
+
 
 # Brickwall
 
